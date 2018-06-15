@@ -6,9 +6,8 @@ public class Player : MonoBehaviour
 {
     [HideInInspector] public bool facingRight = true;
     [HideInInspector] public bool jump = false;
-    public float moveForce = 365f;
-    public float maxSpeed = 5f;
-    public float jumpForce = 1000f;
+    public float JumpForce = 5f;
+    public float maxSpeed = 3f;
     public Transform groundCheck;
 
 
@@ -38,11 +37,10 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         float h = Input.GetAxis("Horizontal");
-
-       // anim.SetFloat("Speed", Mathf.Abs(h));
+        // anim.SetFloat("Speed", Mathf.Abs(h));
 
         if (h * rb2d.velocity.x < maxSpeed)
-            rb2d.AddForce(Vector2.right * h * moveForce);
+            rb2d.AddForce(Vector2.right * h * JumpForce);
 
         if (Mathf.Abs (rb2d.velocity.x) > maxSpeed)
             rb2d.velocity = new Vector2(Mathf.Sign (rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
@@ -52,14 +50,18 @@ public class Player : MonoBehaviour
         else if (h < 0 && facingRight)
             Flip ();
 
-        if (jump)
+        if (/*jump == true*/ Input.GetButtonDown("Jump"))
         {
-          //  anim.SetTrigger("Jump");
-            rb2d.AddForce(new Vector2(0f, jumpForce));
+            //anim.SetTrigger("Jump");
+            rb2d.AddForce(new Vector2(0,JumpForce), ForceMode2D.Impulse);
             jump = false;
+            /* Straight up transform teleport, not a suitable jump
+            transform.Translate(Vector3.up * 260 * Time.deltaTime, Space.World);
+            */
         }
     }
 
+    
 
     void Flip()
     {
