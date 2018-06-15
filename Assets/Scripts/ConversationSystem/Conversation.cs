@@ -49,24 +49,6 @@ public class Conversation : MonoBehaviour
         for (int i = 0; i < playerResponses.Count; i += 1)
         {
             this.playerResponseTexts[i].text = playerResponses[i].dialogOne + playerResponses[i].getKeyCode().ToString();
-            if (i == 0)
-            {
-                this.playerResponseTexts[i].transform.position = new Vector3(this.player.transform.position.x + 2f,
-                    this.player.transform.position.y,
-                    this.playerResponseTexts[i].transform.position.z);
-            }
-            else if (i == 1)
-            {
-                this.playerResponseTexts[i].transform.position = new Vector3(this.player.transform.position.x - 0.5f,
-                    this.player.transform.position.y,
-                    this.playerResponseTexts[i].transform.position.z);
-            }
-            else if (i == 2)
-            {
-                this.playerResponseTexts[i].transform.position = new Vector3(this.player.transform.position.x,
-                    this.player.transform.position.y + 0.5f,
-                    this.playerResponseTexts[i].transform.position.z);
-            }
         }
     }
 
