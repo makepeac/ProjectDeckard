@@ -22,12 +22,35 @@ public class Conversation : MonoBehaviour
     [SerializeField]
     List<Text> playerResponseTexts = null;
 
-    bool started = true;
+    [SerializeField]
+    List<PlotFilter> plotFilters = new List<PlotFilter>();
+
+    bool started = false;
     bool completed = false;
 
     public NPC getNPC()
     {
         return this.npc.GetComponent<NPC>();
+    }
+
+    public void startConversation()
+    {
+        this.started = true;
+        this.npcText.transform.position = new Vector3(this.npc.transform.position.x, this.npc.transform.position.y + 0.5f, this.npcText.transform.position.z);
+        this.npcText.text = this.currentNpcDialog.npcResponse;
+        Invoke("updatePlayerResponses", 2);
+    }
+
+    public bool canStart()
+    {
+        foreach (PlotFilter filter in this.plotFilters)
+        {
+            if (!filter.isActive())
+            {
+                return false;
+            }
+        }
+        return true;
     }
 
     // Use this for initialization
@@ -38,9 +61,7 @@ public class Conversation : MonoBehaviour
         {
             this.currentNpcDialog = child.GetComponent<NPCDialog>();
         }
-        this.npcText.transform.position = new Vector3(this.npc.transform.position.x, this.npc.transform.position.y + 0.5f, this.npcText.transform.position.z);
-        this.npcText.text = this.currentNpcDialog.npcResponse;
-        Invoke("updatePlayerResponses", 2);
+        this.plotFilters = new List<PlotFilter>(this.GetComponents<PlotFilter>());
     }
 
     void updatePlayerResponses()

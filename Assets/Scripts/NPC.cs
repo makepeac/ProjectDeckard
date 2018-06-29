@@ -8,20 +8,46 @@ public class NPC : MonoBehaviour
     [SerializeField]
     string characterName;
 
+    [SerializeField]
+    List<Conversation> availableConversations;
+
+    /// <summary>
+    /// Awake is called when the script instance is being loaded.
+    /// </summary>
+    void Awake()
+    {
+        foreach (Transform child in this.transform)
+        {
+            Conversation conversation = child.GetComponent<Conversation>();
+            if (conversation)
+            {
+                this.availableConversations.Add(conversation);
+            }
+        }
+    }
+
     public string getName()
     {
         return this.characterName;
     }
 
-    // Use this for initialization
-    void Start()
+    /// <summary>
+    /// Sent when an incoming collider makes contact with this object's
+    /// collider (2D physics only).
+    /// </summary>
+    /// <param name="other">The Collision2D data associated with this collision.</param>
+    void OnCollisionEnter2D(Collision2D other)
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        if (other.gameObject.GetComponent<Player>())
+        {
+            foreach (Conversation convo in this.availableConversations)
+            {
+                if (convo.canStart())
+                {
+                    convo.startConversation();
+                    return;
+                }
+            }
+        }
     }
 }
