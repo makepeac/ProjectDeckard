@@ -71,6 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4472000670712844}
   - component: {fileID: 114185971820790088}
+  - component: {fileID: 114762250592133638}
   m_Layer: 0
   m_Name: ArchibaldConversation1
   m_TagString: Untagged
@@ -210,6 +211,7 @@ GameObject:
   - component: {fileID: 114160059645464892}
   - component: {fileID: 114234466885488646}
   - component: {fileID: 114516408868481704}
+  - component: {fileID: 114682467172116536}
   m_Layer: 0
   m_Name: 'Archibald: Mean filkter'
   m_TagString: Untagged
@@ -468,7 +470,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  plotManager: {fileID: 0}
+  plotFilters: []
 --- !u!114 &114234466885488646
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -581,6 +583,19 @@ MonoBehaviour:
   dialogOne: I am a mean player
   npcResponse: []
   keycode: 95
+--- !u!114 &114682467172116536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802996059212264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: two
 --- !u!114 &114708616523812950
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -642,6 +657,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
   newValue: yes
+--- !u!114 &114762250592133638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1421757032374982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: one
 --- !u!114 &114765279445150534
 MonoBehaviour:
   m_ObjectHideFlags: 1
