@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Plot : MonoBehaviour {
+public class Plot : MonoBehaviour
+{
     [SerializeField]
     string plotName;
 
@@ -12,11 +13,21 @@ public class Plot : MonoBehaviour {
     [SerializeField]
     string plotValue;
 
-    public string getPlotValue () {
+    /// <summary>
+    /// Awake is called when the script instance is being loaded.
+    /// </summary>
+    void Awake()
+    {
+        this.plotValue = this.startingValue;
+    }
+
+    public string getPlotValue()
+    {
         return this.plotValue;
     }
 
-    public void setPlotValue (string newValue) {
+    public void setPlotValue(string newValue)
+    {
         this.plotValue = newValue;
     }
 }
