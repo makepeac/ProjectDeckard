@@ -23,8 +23,11 @@ public class Conversation : MonoBehaviour
     [SerializeField]
     List<PlotFilter> plotFilters = new List<PlotFilter>();
 
+    [SerializeField]
     bool started = false;
-    public bool completed = false;
+
+    [SerializeField]
+    bool completed = false;
 
     public NPC getNPC()
     {
