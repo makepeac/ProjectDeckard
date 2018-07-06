@@ -320,7 +320,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1421757032374982}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.07, y: 0.38, z: 0}
+  m_LocalPosition: {x: -4.6648226, y: -0.11462286, z: -0.17675781}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4162994318770800}
@@ -562,13 +562,13 @@ MonoBehaviour:
   - {fileID: 114043820603587734}
   currentNpcDialog: {fileID: 0}
   npc: {fileID: 0}
-  player: {fileID: 0}
   npcText: {fileID: 0}
   playerResponseTexts:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   plotFilters: []
+  started: 0
   completed: 0
 --- !u!114 &114234466885488646
 MonoBehaviour:
