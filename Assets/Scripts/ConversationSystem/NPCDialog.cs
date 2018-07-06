@@ -7,8 +7,12 @@ public class NPCDialog : MonoBehaviour
     [Header("Option 1")]
     [TextArea]
     public string npcResponse = "";
+
     [SerializeField]
-    List<PlayerDialog> linkedDialogOne = new List<PlayerDialog>();
+    List<PlayerDialog> playerResponses = new List<PlayerDialog>();
+
+    [SerializeField]
+    List<NPCDialog> npcContinuations = new List<NPCDialog>();
 
     private KeyCode[] responseKeyCodes = { KeyCode.A, KeyCode.W, KeyCode.D };
 
@@ -20,10 +24,12 @@ public class NPCDialog : MonoBehaviour
     [SerializeField]
     bool triggerWhenComplete = false;
 
-    // Use this for initialization
-    void Start()
+    /// <summary>
+    /// Awake is called when the script instance is being loaded.
+    /// </summary>
+    void Awake()
     {
-        this.linkedDialogOne = new List<PlayerDialog>();
+        this.playerResponses = new List<PlayerDialog>();
         int i = 0;
         foreach (Transform child in this.transform)
         {
@@ -32,7 +38,12 @@ public class NPCDialog : MonoBehaviour
             {
                 dialog.setKeyCode(responseKeyCodes[i]);
                 i += 1;
-                this.linkedDialogOne.Add(dialog);
+                this.playerResponses.Add(dialog);
+            }
+            NPCDialog npcContinuation = child.GetComponent<NPCDialog>();
+            if (npcContinuation)
+            {
+                this.npcContinuations.Add(npcContinuation);
             }
         }
         this.plotFilter = this.GetComponent<PlotFilter>();
@@ -40,6 +51,7 @@ public class NPCDialog : MonoBehaviour
 
     public void fixedUpdate()
     {
+        Debug.Log(this.)
         if (!this.playerResponse)
         {
             if (Input.GetKeyDown(responseKeyCodes[0]))
@@ -63,6 +75,23 @@ public class NPCDialog : MonoBehaviour
     public bool isOnlyOnConversationCompletion()
     {
         return this.triggerWhenComplete;
+    }
+
+    public NPCDialog getNPCCountinuation()
+    {
+        NPCDialog defaultDialog = null;
+        foreach (NPCDialog dialog in this.npcContinuations)
+        {
+            if (dialog.isNpcResponse() && dialog.hasPlotFilter())
+            {
+                return dialog;
+            }
+            else if (dialog.isNpcResponse())
+            {
+                defaultDialog = dialog;
+            }
+        }
+        return defaultDialog;
     }
 
     /*
@@ -90,17 +119,17 @@ public class NPCDialog : MonoBehaviour
 
     public bool HasPossibleResponses()
     {
-        return this.linkedDialogOne.Count > 0;
+        return this.playerResponses.Count > 0 || this.npcContinuations.Count > 0;
     }
 
     public List<PlayerDialog> getPlayerResponses()
     {
-        return this.linkedDialogOne;
+        return this.playerResponses;
     }
 
     void setPlayerResponse(KeyCode keyCode)
     {
-        foreach (PlayerDialog dialog in this.linkedDialogOne)
+        foreach (PlayerDialog dialog in this.playerResponses)
         {
             if (dialog.getKeyCode() == keyCode)
             {

@@ -26,6 +26,9 @@ public class Conversation : MonoBehaviour
     [SerializeField]
     bool completed = false;
 
+    [SerializeField]
+    bool canStartNextLine = true;
+
     // Use this for initialization
     private void Awake()
     {
@@ -52,7 +55,19 @@ public class Conversation : MonoBehaviour
         if (this.started && !this.completed)
         {
             this.currentNpcDialog.fixedUpdate();
-            if (this.currentNpcDialog.getPlayerResponse())
+            NPCDialog continuation = this.currentNpcDialog.getNPCCountinuation();
+            if (continuation && this.canStartNextLine)
+            {
+                this.currentNpcDialog = continuation;
+                StartCoroutine(fireNextLine(this.currentNpcDialog.npcResponse));
+                this.completed = !this.currentNpcDialog.HasPossibleResponses();
+                this.canStartNextLine = false;
+            }
+            if (!continuation && !this.currentNpcDialog.getPlayerResponse() && this.canStartNextLine)
+            {
+                this.updatePlayerResponses();
+            }
+            if (this.currentNpcDialog.getPlayerResponse() && this.canStartNextLine)
             {
                 this.hidePlayerResponseText();
                 PlayerDialog playerDialog = this.currentNpcDialog.getPlayerResponse();
@@ -60,7 +75,7 @@ public class Conversation : MonoBehaviour
                 if (this.currentNpcDialog)
                 {
                     this.npcText.text = this.currentNpcDialog.npcResponse;
-                    Invoke("updatePlayerResponses", 5);
+                    Invoke("updatePlayerResponses", 3);
                     this.completed = !this.currentNpcDialog.HasPossibleResponses();
 
                 }
@@ -78,6 +93,14 @@ public class Conversation : MonoBehaviour
     // NPC
     //////////////////////////////////////////////////////////////
 
+    private IEnumerator fireNextLine(string npcText)
+    {
+        yield return new WaitForSeconds(3);
+        this.npcText.text = npcText;
+        yield return new WaitForSeconds(3);
+        this.canStartNextLine = true;
+    }
+
     public NPC getNPC()
     {
         return this.npc.GetComponent<NPC>();
@@ -85,6 +108,7 @@ public class Conversation : MonoBehaviour
 
     public void startConversation()
     {
+        this.hidePlayerResponses();
         this.started = true;
         this.npcText.transform.position = new Vector3(this.npc.transform.position.x, this.npc.transform.position.y + 0.5f, this.npcText.transform.position.z);
         if (this.completed)
@@ -94,7 +118,6 @@ public class Conversation : MonoBehaviour
         else
         {
             this.npcText.text = this.currentNpcDialog.npcResponse;
-            Invoke("updatePlayerResponses", 2);
         }
     }
 
@@ -142,6 +165,14 @@ public class Conversation : MonoBehaviour
         for (int i = 0; i < playerResponses.Count; i += 1)
         {
             this.playerResponseTexts[i].text = playerResponses[i].dialogOne + playerResponses[i].getKeyCode().ToString();
+        }
+    }
+
+    private void hidePlayerResponses()
+    {
+        for (int i = 0; i < playerResponseTexts.Count; i += 1)
+        {
+            this.playerResponseTexts[i].text = string.Empty;
         }
     }
 
