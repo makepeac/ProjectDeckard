@@ -8,7 +8,7 @@ public class PlayerDialog : MonoBehaviour
     [TextArea]
     public string dialogOne = "";
     [SerializeField]
-    List<NPCDialog> npcResponse = new List<NPCDialog>();
+    List<NPCDialog> npcResponses = new List<NPCDialog>();
 
     [SerializeField]
     KeyCode keycode = KeyCode.Underscore;
@@ -19,14 +19,14 @@ public class PlayerDialog : MonoBehaviour
     void Start()
     {
         this.plotTrigger = this.GetComponent<PlotTrigger>();
-        if (this.npcResponse.Count < 1)
+        if (this.npcResponses.Count < 1)
         {
             foreach (Transform child in this.transform)
             {
                 NPCDialog dialog = child.GetComponent<NPCDialog>();
                 if (dialog)
                 {
-                    this.npcResponse.Add(dialog);
+                    this.npcResponses.Add(dialog);
                 }
             }
         }
@@ -39,7 +39,7 @@ public class PlayerDialog : MonoBehaviour
     public NPCDialog getNpcResponse()
     {
         NPCDialog defaultDialog = null;
-        foreach (NPCDialog dialog in this.npcResponse)
+        foreach (NPCDialog dialog in this.npcResponses)
         {
             if (dialog.isNpcResponse() && dialog.hasPlotFilter())
             {

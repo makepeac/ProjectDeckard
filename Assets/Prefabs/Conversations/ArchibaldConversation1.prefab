@@ -45,6 +45,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1389689298572990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4950014016050720}
+  - component: {fileID: 114002836026353748}
+  - component: {fileID: 114927611537199240}
+  - component: {fileID: 114692795745214392}
+  m_Layer: 0
+  m_Name: 'Archibald: Go away'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1400859609817748
 GameObject:
   m_ObjectHideFlags: 1
@@ -91,6 +109,24 @@ GameObject:
   - component: {fileID: 114543370695787274}
   m_Layer: 0
   m_Name: PC:Yes, lovely
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1437780796027232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4689230025207090}
+  - component: {fileID: 114043820603587734}
+  - component: {fileID: 114569760456106216}
+  - component: {fileID: 114567886814655454}
+  m_Layer: 0
+  m_Name: 'Archibald: oh, it''s you again'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -288,6 +324,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4162994318770800}
+  - {fileID: 4950014016050720}
+  - {fileID: 4689230025207090}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -316,6 +354,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4453572840097928}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4689230025207090
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1437780796027232}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4472000670712844}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4705124624490870
 Transform:
@@ -372,6 +423,19 @@ Transform:
   m_Father: {fileID: 4453572840097928}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4950014016050720
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1389689298572990}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4472000670712844}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4965884096549200
 Transform:
   m_ObjectHideFlags: 1
@@ -386,6 +450,36 @@ Transform:
   m_Father: {fileID: 4705124624490870}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114002836026353748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1389689298572990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: Go away
+  linkedDialogOne: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 1
+--- !u!114 &114043820603587734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1437780796027232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: oh, it's you again
+  linkedDialogOne: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 1
 --- !u!114 &114111319102010996
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -409,7 +503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogOne: Yes, lovely
-  npcResponse: []
+  npcResponses: []
   keycode: 95
 --- !u!114 &114152841281759958
 MonoBehaviour:
@@ -436,6 +530,7 @@ MonoBehaviour:
   npcResponse: Mean filkter
   linkedDialogOne: []
   plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
 --- !u!114 &114171034797532400
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -450,6 +545,7 @@ MonoBehaviour:
   npcResponse: Nice filter
   linkedDialogOne: []
   plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
 --- !u!114 &114185971820790088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -461,7 +557,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7db2d07d97edf4b68836d88e7f967cb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  completedResponse: It was nice talking to you.
+  completedResponses:
+  - {fileID: 114002836026353748}
+  - {fileID: 114043820603587734}
   currentNpcDialog: {fileID: 0}
   npc: {fileID: 0}
   player: {fileID: 0}
@@ -471,6 +569,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   plotFilters: []
+  completed: 0
 --- !u!114 &114234466885488646
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -518,7 +617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogOne: Nope, not nice at all.
-  npcResponse: []
+  npcResponses: []
   keycode: 95
 --- !u!114 &114446346927767608
 MonoBehaviour:
@@ -555,6 +654,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114567886814655454
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1437780796027232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: yes
+--- !u!114 &114569760456106216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1437780796027232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114660237872746506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -567,7 +690,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogOne: Maybe.
-  npcResponse: []
+  npcResponses:
+  - {fileID: 114791426648425948}
   keycode: 95
 --- !u!114 &114671213669250690
 MonoBehaviour:
@@ -581,7 +705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogOne: I am a mean player
-  npcResponse: []
+  npcResponses: []
   keycode: 95
 --- !u!114 &114682467172116536
 MonoBehaviour:
@@ -596,6 +720,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
   newValue: two
+--- !u!114 &114692795745214392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1389689298572990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: no
 --- !u!114 &114708616523812950
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -608,7 +745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogOne: I know you are but what am i?
-  npcResponse:
+  npcResponses:
   - {fileID: 114791426648425948}
   keycode: 95
 --- !u!114 &114720114326710910
@@ -684,6 +821,7 @@ MonoBehaviour:
   npcResponse: What a nice day tomorrow yes lovely
   linkedDialogOne: []
   plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
 --- !u!114 &114780041829976332
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -709,6 +847,7 @@ MonoBehaviour:
   npcResponse: Did you see the willows?
   linkedDialogOne: []
   plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
 --- !u!114 &114836089134946420
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -723,12 +862,24 @@ MonoBehaviour:
   npcResponse: What a kill joy.
   linkedDialogOne: []
   plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
 --- !u!114 &114839158863392294
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1747212678684402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114927611537199240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1389689298572990}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
@@ -746,5 +897,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogOne: I'm sorry
-  npcResponse: []
+  npcResponses:
+  - {fileID: 114791426648425948}
   keycode: 95

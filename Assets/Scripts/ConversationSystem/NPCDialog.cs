@@ -17,6 +17,9 @@ public class NPCDialog : MonoBehaviour
     [SerializeField]
     PlotFilter plotFilter = null;
 
+    [SerializeField]
+    bool triggerWhenComplete = false;
+
     // Use this for initialization
     void Start()
     {
@@ -55,6 +58,11 @@ public class NPCDialog : MonoBehaviour
                 this.setPlayerResponse(responseKeyCodes[2]);
             }
         }
+    }
+
+    public bool isOnlyOnConversationCompletion()
+    {
+        return this.triggerWhenComplete;
     }
 
     /*

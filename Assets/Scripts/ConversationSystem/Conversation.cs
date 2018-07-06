@@ -5,9 +5,7 @@ using UnityEngine.UI;
 
 public class Conversation : MonoBehaviour
 {
-
-    [TextArea]
-    public string completedResponse = "";
+    public List<NPCDialog> completedResponses = null;
     public NPCDialog currentNpcDialog = null;
 
     [SerializeField]
@@ -26,7 +24,7 @@ public class Conversation : MonoBehaviour
     List<PlotFilter> plotFilters = new List<PlotFilter>();
 
     bool started = false;
-    bool completed = false;
+    public bool completed = false;
 
     public NPC getNPC()
     {
@@ -37,8 +35,15 @@ public class Conversation : MonoBehaviour
     {
         this.started = true;
         this.npcText.transform.position = new Vector3(this.npc.transform.position.x, this.npc.transform.position.y + 0.5f, this.npcText.transform.position.z);
-        this.npcText.text = this.currentNpcDialog.npcResponse;
-        Invoke("updatePlayerResponses", 2);
+        if (this.completed)
+        {
+            this.npcText.text = this.getCompletedResponse();
+        }
+        else
+        {
+            this.npcText.text = this.currentNpcDialog.npcResponse;
+            Invoke("updatePlayerResponses", 2);
+        }
     }
 
     public bool canStart()
@@ -54,12 +59,22 @@ public class Conversation : MonoBehaviour
     }
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         npc = this.transform.parent.gameObject;
+        NPCDialog startingDialog = null;
         foreach (Transform child in this.transform)
         {
-            this.currentNpcDialog = child.GetComponent<NPCDialog>();
+            startingDialog = child.GetComponent<NPCDialog>();
+            if (startingDialog && !startingDialog.isOnlyOnConversationCompletion())
+            {
+                this.currentNpcDialog = startingDialog;
+                break;
+            }
+        }
+        if (!this.currentNpcDialog)
+        {
+            this.completed = true;
         }
         this.plotFilters = new List<PlotFilter>(this.GetComponents<PlotFilter>());
     }
@@ -79,6 +94,23 @@ public class Conversation : MonoBehaviour
         {
             text.text = string.Empty;
         }
+    }
+
+    private string getCompletedResponse()
+    {
+        string defaultDialog = null;
+        foreach (NPCDialog dialog in this.completedResponses)
+        {
+            if (dialog.isNpcResponse() && dialog.hasPlotFilter())
+            {
+                return dialog.npcResponse;
+            }
+            else if (dialog.isNpcResponse())
+            {
+                defaultDialog = dialog.npcResponse;
+            }
+        }
+        return defaultDialog;
     }
 
     void hideNpcResponse()
