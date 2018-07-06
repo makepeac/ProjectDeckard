@@ -29,7 +29,6 @@ public class Conversation : MonoBehaviour
     // Use this for initialization
     private void Awake()
     {
-        npc = this.transform.parent.gameObject;
         NPCDialog startingDialog = null;
         foreach (Transform child in this.transform)
         {

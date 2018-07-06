@@ -54,6 +54,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcResponse: 
   linkedDialogOne: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
 --- !u!114 &114279478282804306
 MonoBehaviour:
   m_ObjectHideFlags: 1

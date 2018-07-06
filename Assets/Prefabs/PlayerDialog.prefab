@@ -64,5 +64,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogOne: <<Type player dialog here>>
-  linkedDialogOne: {fileID: 0}
+  npcResponses: []
   keycode: 95
