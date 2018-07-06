@@ -12,9 +12,6 @@ public class Conversation : MonoBehaviour
     GameObject npc;
 
     [SerializeField]
-    GameObject player;
-
-    [SerializeField]
     Text npcText;
 
     [SerializeField]
@@ -28,6 +25,59 @@ public class Conversation : MonoBehaviour
 
     [SerializeField]
     bool completed = false;
+
+    // Use this for initialization
+    private void Awake()
+    {
+        npc = this.transform.parent.gameObject;
+        NPCDialog startingDialog = null;
+        foreach (Transform child in this.transform)
+        {
+            startingDialog = child.GetComponent<NPCDialog>();
+            if (startingDialog && !startingDialog.isOnlyOnConversationCompletion())
+            {
+                this.currentNpcDialog = startingDialog;
+                break;
+            }
+        }
+        if (!this.currentNpcDialog)
+        {
+            this.completed = true;
+        }
+        this.plotFilters = new List<PlotFilter>(this.GetComponents<PlotFilter>());
+    }
+
+    // Update is called once per frame
+    private void Update()
+    {
+        if (this.started && !this.completed)
+        {
+            this.currentNpcDialog.fixedUpdate();
+            if (this.currentNpcDialog.getPlayerResponse())
+            {
+                this.hidePlayerResponseText();
+                PlayerDialog playerDialog = this.currentNpcDialog.getPlayerResponse();
+                this.currentNpcDialog = playerDialog.getNpcResponse();
+                if (this.currentNpcDialog)
+                {
+                    this.npcText.text = this.currentNpcDialog.npcResponse;
+                    Invoke("updatePlayerResponses", 5);
+                    this.completed = !this.currentNpcDialog.HasPossibleResponses();
+
+                }
+                else
+                {
+                    this.hideNpcResponse();
+                    this.hidePlayerResponseText();
+                    this.completed = true;
+                }
+            }
+        }
+    }
+
+    //////////////////////////////////////////////////////////////
+    // NPC
+    //////////////////////////////////////////////////////////////
 
     public NPC getNPC()
     {
@@ -61,42 +111,9 @@ public class Conversation : MonoBehaviour
         return true;
     }
 
-    // Use this for initialization
-    void Awake()
+    private void hideNpcResponse()
     {
-        npc = this.transform.parent.gameObject;
-        NPCDialog startingDialog = null;
-        foreach (Transform child in this.transform)
-        {
-            startingDialog = child.GetComponent<NPCDialog>();
-            if (startingDialog && !startingDialog.isOnlyOnConversationCompletion())
-            {
-                this.currentNpcDialog = startingDialog;
-                break;
-            }
-        }
-        if (!this.currentNpcDialog)
-        {
-            this.completed = true;
-        }
-        this.plotFilters = new List<PlotFilter>(this.GetComponents<PlotFilter>());
-    }
-
-    void updatePlayerResponses()
-    {
-        List<PlayerDialog> playerResponses = this.currentNpcDialog.getPlayerResponses();
-        for (int i = 0; i < playerResponses.Count; i += 1)
-        {
-            this.playerResponseTexts[i].text = playerResponses[i].dialogOne + playerResponses[i].getKeyCode().ToString();
-        }
-    }
-
-    void hidePlayerResponseText()
-    {
-        foreach (Text text in this.playerResponseTexts)
-        {
-            text.text = string.Empty;
-        }
+        this.npcText.text = string.Empty;
     }
 
     private string getCompletedResponse()
@@ -116,37 +133,24 @@ public class Conversation : MonoBehaviour
         return defaultDialog;
     }
 
-    void hideNpcResponse()
+    //////////////////////////////////////////////////////////////
+    // PLAYER
+    //////////////////////////////////////////////////////////////
+
+    private void updatePlayerResponses()
     {
-        this.npcText.text = string.Empty;
+        List<PlayerDialog> playerResponses = this.currentNpcDialog.getPlayerResponses();
+        for (int i = 0; i < playerResponses.Count; i += 1)
+        {
+            this.playerResponseTexts[i].text = playerResponses[i].dialogOne + playerResponses[i].getKeyCode().ToString();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void hidePlayerResponseText()
     {
-        if (this.started && !this.completed)
+        foreach (Text text in this.playerResponseTexts)
         {
-            this.currentNpcDialog.fixedUpdate();
-            if (this.currentNpcDialog.getPlayerResponse())
-            {
-                this.hidePlayerResponseText();
-                PlayerDialog playerDialog = this.currentNpcDialog.getPlayerResponse();
-                this.currentNpcDialog = playerDialog.getNpcResponse();
-                if (this.currentNpcDialog)
-                {
-                    this.npcText.text = this.currentNpcDialog.npcResponse;
-                    Invoke("updatePlayerResponses", 5);
-                    Debug.Log(this.currentNpcDialog.npcResponse);
-                    this.completed = !this.currentNpcDialog.HasPossibleResponses();
-
-                }
-                else
-                {
-                    this.hideNpcResponse();
-                    this.hidePlayerResponseText();
-                    this.completed = true;
-                }
-            }
+            text.text = string.Empty;
         }
     }
 }
