@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerDialog : MonoBehaviour {
-    [Header ("Option 1")]
+public class PlayerDialog : MonoBehaviour
+{
+    [Header("Option 1")]
     [TextArea]
     public string dialogOne = "";
     [SerializeField]
-    List<NPCDialog> npcResponse = new List<NPCDialog> ();
+    List<NPCDialog> npcResponse = new List<NPCDialog>();
 
     [SerializeField]
     KeyCode keycode = KeyCode.Underscore;
@@ -15,13 +16,17 @@ public class PlayerDialog : MonoBehaviour {
     private PlotTrigger plotTrigger;
 
     // Use this for initialization
-    void Start () {
-        this.plotTrigger = this.GetComponent<PlotTrigger> ();
-        if (this.npcResponse.Count < 1) {
-            foreach (Transform child in this.transform) {
-                NPCDialog dialog = child.GetComponent<NPCDialog> ();
-                if (dialog) {
-                    this.npcResponse.Add (dialog);
+    void Start()
+    {
+        this.plotTrigger = this.GetComponent<PlotTrigger>();
+        if (this.npcResponse.Count < 1)
+        {
+            foreach (Transform child in this.transform)
+            {
+                NPCDialog dialog = child.GetComponent<NPCDialog>();
+                if (dialog)
+                {
+                    this.npcResponse.Add(dialog);
                 }
             }
         }
@@ -31,12 +36,17 @@ public class PlayerDialog : MonoBehaviour {
         NPC Response
     */
 
-    public NPCDialog getNpcResponse () {
+    public NPCDialog getNpcResponse()
+    {
         NPCDialog defaultDialog = null;
-        foreach (NPCDialog dialog in this.npcResponse) {
-            if (dialog.isNpcResponse () && dialog.hasPlotFilter ()) {
+        foreach (NPCDialog dialog in this.npcResponse)
+        {
+            if (dialog.isNpcResponse() && dialog.hasPlotFilter())
+            {
                 return dialog;
-            } else if (dialog.isNpcResponse ()) {
+            }
+            else if (dialog.isNpcResponse())
+            {
                 defaultDialog = dialog;
             }
         }
@@ -47,11 +57,13 @@ public class PlayerDialog : MonoBehaviour {
         Plot Trigger
     */
 
-    public bool hasPlotTrigger () {
+    public bool hasPlotTrigger()
+    {
         return this.plotTrigger != null;
     }
 
-    public PlotTrigger getPlotTrigger () {
+    public PlotTrigger getPlotTrigger()
+    {
         return this.plotTrigger;
     }
 
@@ -59,11 +71,13 @@ public class PlayerDialog : MonoBehaviour {
         Key Code
     */
 
-    public void setKeyCode (KeyCode keycode) {
+    public void setKeyCode(KeyCode keycode)
+    {
         this.keycode = keycode;
     }
 
-    public KeyCode getKeyCode () {
+    public KeyCode getKeyCode()
+    {
         return this.keycode;
     }
 }
