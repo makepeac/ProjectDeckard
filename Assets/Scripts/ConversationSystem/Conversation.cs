@@ -39,7 +39,10 @@ public class Conversation : MonoBehaviour
             if (startingDialog && !startingDialog.isOnlyOnConversationCompletion())
             {
                 this.currentNpcDialog = startingDialog;
-                break;
+            }
+            if (startingDialog && startingDialog.isOnlyOnConversationCompletion())
+            {
+                this.completedResponses.Add(startingDialog);
             }
         }
         if (!this.currentNpcDialog)
