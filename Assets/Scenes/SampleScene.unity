@@ -263,6 +263,21 @@ Prefab:
       propertyPath: npcText
       value: 
       objectReference: {fileID: 1662018962}
+    - target: {fileID: 114609616586333960, guid: f80b392136c699348bcc5d7da10ba044,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[0]
+      value: 
+      objectReference: {fileID: 1206906416}
+    - target: {fileID: 114609616586333960, guid: f80b392136c699348bcc5d7da10ba044,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[1]
+      value: 
+      objectReference: {fileID: 1849931852}
+    - target: {fileID: 114609616586333960, guid: f80b392136c699348bcc5d7da10ba044,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[2]
+      value: 
+      objectReference: {fileID: 467277722}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f80b392136c699348bcc5d7da10ba044, type: 2}
   m_IsPrefabParent: 0
@@ -422,6 +437,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Hotshot
   availableConversations: []
+--- !u!114 &467277722 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114872701492422072, guid: 011364b3dd0114c84b1edae34aa86891,
+    type: 2}
+  m_PrefabInternal: {fileID: 1046066704}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!4 &472461966 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4937525745037160, guid: 8ac52c37324ca4e4bad506b6df5331ed,
@@ -772,6 +793,21 @@ Prefab:
       propertyPath: npcText
       value: 
       objectReference: {fileID: 1662018962}
+    - target: {fileID: 114601774263203872, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[0]
+      value: 
+      objectReference: {fileID: 1206906416}
+    - target: {fileID: 114601774263203872, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[1]
+      value: 
+      objectReference: {fileID: 1849931852}
+    - target: {fileID: 114601774263203872, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[2]
+      value: 
+      objectReference: {fileID: 467277722}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08ffbf2c9e63df7448c5a34845f608f3, type: 2}
   m_IsPrefabParent: 0
@@ -1220,9 +1256,30 @@ Prefab:
       propertyPath: npcText
       value: 
       objectReference: {fileID: 1662018962}
+    - target: {fileID: 114948321570740906, guid: 8ac52c37324ca4e4bad506b6df5331ed,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[0]
+      value: 
+      objectReference: {fileID: 1206906416}
+    - target: {fileID: 114948321570740906, guid: 8ac52c37324ca4e4bad506b6df5331ed,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[1]
+      value: 
+      objectReference: {fileID: 1849931852}
+    - target: {fileID: 114948321570740906, guid: 8ac52c37324ca4e4bad506b6df5331ed,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[2]
+      value: 
+      objectReference: {fileID: 467277722}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8ac52c37324ca4e4bad506b6df5331ed, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1206906416 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114560940085596420, guid: 011364b3dd0114c84b1edae34aa86891,
+    type: 2}
+  m_PrefabInternal: {fileID: 1046066704}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &1229611390
 Prefab:
   m_ObjectHideFlags: 0
@@ -1297,6 +1354,21 @@ Prefab:
       propertyPath: npcText
       value: 
       objectReference: {fileID: 1662018962}
+    - target: {fileID: 114145616290873064, guid: 5498515974842934a8777e8177f7aee3,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[0]
+      value: 
+      objectReference: {fileID: 1206906416}
+    - target: {fileID: 114145616290873064, guid: 5498515974842934a8777e8177f7aee3,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[1]
+      value: 
+      objectReference: {fileID: 1849931852}
+    - target: {fileID: 114145616290873064, guid: 5498515974842934a8777e8177f7aee3,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[2]
+      value: 
+      objectReference: {fileID: 467277722}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5498515974842934a8777e8177f7aee3, type: 2}
   m_IsPrefabParent: 0
@@ -1539,6 +1611,21 @@ Prefab:
       propertyPath: npcText
       value: 
       objectReference: {fileID: 1662018962}
+    - target: {fileID: 114180609739410440, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[0]
+      value: 
+      objectReference: {fileID: 1206906416}
+    - target: {fileID: 114180609739410440, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[1]
+      value: 
+      objectReference: {fileID: 1849931852}
+    - target: {fileID: 114180609739410440, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[2]
+      value: 
+      objectReference: {fileID: 467277722}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3640958e69d2a2e4c8b9513f0f6bd141, type: 2}
   m_IsPrefabParent: 0
@@ -1854,6 +1941,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 126d84d4ecff9404c850a898e7652af4, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1849931852 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114611012366246372, guid: 011364b3dd0114c84b1edae34aa86891,
+    type: 2}
+  m_PrefabInternal: {fileID: 1046066704}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!114 &1902164794 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114037231895498506, guid: 0cccfe023b0d544cba18d9ba458ca471,
@@ -2002,6 +2095,21 @@ Prefab:
       propertyPath: npcText
       value: 
       objectReference: {fileID: 1662018962}
+    - target: {fileID: 114820866162406466, guid: 37dd29f5b501fb8468bba1bb006ea920,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[0]
+      value: 
+      objectReference: {fileID: 1206906416}
+    - target: {fileID: 114820866162406466, guid: 37dd29f5b501fb8468bba1bb006ea920,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[1]
+      value: 
+      objectReference: {fileID: 1849931852}
+    - target: {fileID: 114820866162406466, guid: 37dd29f5b501fb8468bba1bb006ea920,
+        type: 2}
+      propertyPath: playerResponseTexts.Array.data[2]
+      value: 
+      objectReference: {fileID: 467277722}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 37dd29f5b501fb8468bba1bb006ea920, type: 2}
   m_IsPrefabParent: 0
