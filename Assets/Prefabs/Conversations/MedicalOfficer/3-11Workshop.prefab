@@ -785,7 +785,7 @@ MonoBehaviour:
   playerResponses: []
   npcContinuations: []
   plotFilter: {fileID: 0}
-  triggerWhenComplete: 0
+  triggerWhenComplete: 1
 --- !u!114 &114081325579995010
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -904,7 +904,10 @@ MonoBehaviour:
   currentNpcDialog: {fileID: 0}
   npc: {fileID: 0}
   npcText: {fileID: 0}
-  playerResponseTexts: []
+  playerResponseTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   plotFilters: []
   started: 0
   completed: 0
@@ -1288,7 +1291,7 @@ MonoBehaviour:
   playerResponses: []
   npcContinuations: []
   plotFilter: {fileID: 0}
-  triggerWhenComplete: 0
+  triggerWhenComplete: 1
 --- !u!114 &114840706359425284
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1433,7 +1436,7 @@ MonoBehaviour:
   playerResponses: []
   npcContinuations: []
   plotFilter: {fileID: 0}
-  triggerWhenComplete: 0
+  triggerWhenComplete: 1
 --- !u!114 &114999434439740932
 MonoBehaviour:
   m_ObjectHideFlags: 1

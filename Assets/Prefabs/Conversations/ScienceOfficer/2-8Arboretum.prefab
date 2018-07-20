@@ -1882,7 +1882,7 @@ MonoBehaviour:
   playerResponses: []
   npcContinuations: []
   plotFilter: {fileID: 0}
-  triggerWhenComplete: 0
+  triggerWhenComplete: 1
 --- !u!114 &114012779226451492
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2004,7 +2004,7 @@ MonoBehaviour:
   playerResponses: []
   npcContinuations: []
   plotFilter: {fileID: 0}
-  triggerWhenComplete: 0
+  triggerWhenComplete: 1
 --- !u!114 &114081607525696530
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2578,7 +2578,7 @@ MonoBehaviour:
   playerResponses: []
   npcContinuations: []
   plotFilter: {fileID: 0}
-  triggerWhenComplete: 0
+  triggerWhenComplete: 1
 --- !u!114 &114470703166952572
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2622,7 +2622,7 @@ MonoBehaviour:
   playerResponses: []
   npcContinuations: []
   plotFilter: {fileID: 0}
-  triggerWhenComplete: 0
+  triggerWhenComplete: 1
 --- !u!114 &114503025245149714
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2893,7 +2893,10 @@ MonoBehaviour:
   currentNpcDialog: {fileID: 0}
   npc: {fileID: 0}
   npcText: {fileID: 0}
-  playerResponseTexts: []
+  playerResponseTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   plotFilters: []
   started: 0
   completed: 0
@@ -3310,7 +3313,7 @@ MonoBehaviour:
   playerResponses: []
   npcContinuations: []
   plotFilter: {fileID: 0}
-  triggerWhenComplete: 0
+  triggerWhenComplete: 1
 --- !u!114 &114894000091786192
 MonoBehaviour:
   m_ObjectHideFlags: 1
