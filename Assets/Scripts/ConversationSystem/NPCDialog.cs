@@ -51,7 +51,6 @@ public class NPCDialog : MonoBehaviour
 
     public void fixedUpdate()
     {
-        Debug.Log(this.)
         if (!this.playerResponse)
         {
             if (Input.GetKeyDown(responseKeyCodes[0]))
