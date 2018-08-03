@@ -201,6 +201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4492666781930812}
   - component: {fileID: 114609616586333960}
+  - component: {fileID: 114222546573548400}
   m_Layer: 0
   m_Name: 3-10CommandDeck
   m_TagString: Untagged
@@ -749,6 +750,19 @@ MonoBehaviour:
   npcContinuations: []
   plotFilter: {fileID: 0}
   triggerWhenComplete: 0
+--- !u!114 &114222546573548400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1400816550606778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValues: 03000000
 --- !u!114 &114242920805365958
 MonoBehaviour:
   m_ObjectHideFlags: 1

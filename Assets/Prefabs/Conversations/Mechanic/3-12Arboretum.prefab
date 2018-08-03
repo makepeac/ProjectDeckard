@@ -180,6 +180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4763814313845454}
   - component: {fileID: 114124895530000342}
+  - component: {fileID: 114334317213867352}
   m_Layer: 0
   m_Name: 3-12Arboretum
   m_TagString: Untagged
@@ -1970,6 +1971,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114334317213867352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1182018519571270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValues: 03000000
 --- !u!114 &114338171060186566
 MonoBehaviour:
   m_ObjectHideFlags: 1
