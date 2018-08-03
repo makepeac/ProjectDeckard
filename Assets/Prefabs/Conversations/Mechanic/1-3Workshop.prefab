@@ -766,7 +766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
-  expectedValue: 3
+  expectedValues: 03000000
 --- !u!114 &114357634872060052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -895,7 +895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
-  expectedValue: 2
+  expectedValues: 02000000
 --- !u!114 &114569760456106216
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -986,7 +986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
-  expectedValue: 1
+  expectedValues: 01000000
 --- !u!114 &114699555504939374
 MonoBehaviour:
   m_ObjectHideFlags: 1

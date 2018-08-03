@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 4125756093673772}
   - component: {fileID: 114323105547536790}
   - component: {fileID: 114766738155733420}
-  - component: {fileID: 114112433015199278}
+  - component: {fileID: 114017372225978866}
   m_Layer: 0
   m_Name: "Mechanic: \u201CBusy. Busy, busy, busy. Oh, god.\u201D"
   m_TagString: Untagged
@@ -484,7 +484,7 @@ GameObject:
   - component: {fileID: 4842738882076614}
   - component: {fileID: 114823148618648498}
   - component: {fileID: 114992658807451458}
-  - component: {fileID: 114945536248027584}
+  - component: {fileID: 114360861999183932}
   m_Layer: 0
   m_Name: "Mechanic: \u201CStay safe out there.\u201D"
   m_TagString: Untagged
@@ -1487,7 +1487,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
-  expectedValue: 
+  expectedValues: 030000000400000005000000
+--- !u!114 &114017372225978866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1206184430874324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValues: 03000000
 --- !u!114 &114029656463036240
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1592,19 +1605,6 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1028237942701018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plot: {fileID: 0}
-  newValue: 3
---- !u!114 &114112433015199278
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1206184430874324}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
@@ -2038,6 +2038,19 @@ MonoBehaviour:
   dialogOne: Positive
   npcResponses: []
   keycode: 95
+--- !u!114 &114360861999183932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581425011605776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValues: 01000000
 --- !u!114 &114377155265676388
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2089,7 +2102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
-  expectedValue: 2
+  expectedValues: 02000000
 --- !u!114 &114413605930962650
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2251,7 +2264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
-  expectedValue: 1
+  expectedValues: 01000000
 --- !u!114 &114539080370304662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2696,7 +2709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
-  expectedValue: 2
+  expectedValues: 02000000
 --- !u!114 &114908795954571352
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2766,19 +2779,6 @@ MonoBehaviour:
   dialogOne: Positive
   npcResponses: []
   keycode: 95
---- !u!114 &114945536248027584
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1581425011605776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plot: {fileID: 0}
-  expectedValue: 1
 --- !u!114 &114947174834466672
 MonoBehaviour:
   m_ObjectHideFlags: 1

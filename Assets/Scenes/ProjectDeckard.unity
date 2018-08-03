@@ -240,6 +240,36 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114319062054019684, guid: f80b392136c699348bcc5d7da10ba044,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1968590777}
+    - target: {fileID: 114760675464943232, guid: f80b392136c699348bcc5d7da10ba044,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1968590777}
+    - target: {fileID: 114002683966952176, guid: f80b392136c699348bcc5d7da10ba044,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1968590777}
+    - target: {fileID: 114421014707951062, guid: f80b392136c699348bcc5d7da10ba044,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1968590777}
+    - target: {fileID: 114175812598980582, guid: f80b392136c699348bcc5d7da10ba044,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1968590777}
+    - target: {fileID: 114704576613610518, guid: f80b392136c699348bcc5d7da10ba044,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1968590777}
     - target: {fileID: 114609616586333960, guid: f80b392136c699348bcc5d7da10ba044,
         type: 2}
       propertyPath: npc
@@ -265,36 +295,6 @@ Prefab:
       propertyPath: playerResponseTexts.Array.data[2]
       value: 
       objectReference: {fileID: 467277722}
-    - target: {fileID: 114704576613610518, guid: f80b392136c699348bcc5d7da10ba044,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1968590777}
-    - target: {fileID: 114175812598980582, guid: f80b392136c699348bcc5d7da10ba044,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1968590777}
-    - target: {fileID: 114421014707951062, guid: f80b392136c699348bcc5d7da10ba044,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1968590777}
-    - target: {fileID: 114002683966952176, guid: f80b392136c699348bcc5d7da10ba044,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1968590777}
-    - target: {fileID: 114760675464943232, guid: f80b392136c699348bcc5d7da10ba044,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1968590777}
-    - target: {fileID: 114319062054019684, guid: f80b392136c699348bcc5d7da10ba044,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1968590777}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f80b392136c699348bcc5d7da10ba044, type: 2}
   m_IsPrefabAsset: 0
@@ -618,77 +618,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114538957255312996, guid: 08ffbf2c9e63df7448c5a34845f608f3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 895266046}
-    - target: {fileID: 114597669066577346, guid: 08ffbf2c9e63df7448c5a34845f608f3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 895266046}
-    - target: {fileID: 114981104498868830, guid: 08ffbf2c9e63df7448c5a34845f608f3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 895266046}
-    - target: {fileID: 114047704402425124, guid: 08ffbf2c9e63df7448c5a34845f608f3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 895266046}
-    - target: {fileID: 114515133177279972, guid: 08ffbf2c9e63df7448c5a34845f608f3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 895266046}
-    - target: {fileID: 114775313083670764, guid: 08ffbf2c9e63df7448c5a34845f608f3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 895266046}
-    - target: {fileID: 114398438842667458, guid: 08ffbf2c9e63df7448c5a34845f608f3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 895266046}
-    - target: {fileID: 114327548161112516, guid: 08ffbf2c9e63df7448c5a34845f608f3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 895266046}
-    - target: {fileID: 114210357703654158, guid: 08ffbf2c9e63df7448c5a34845f608f3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 895266046}
-    - target: {fileID: 114135420371954610, guid: 08ffbf2c9e63df7448c5a34845f608f3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 895266046}
-    - target: {fileID: 114420429447664886, guid: 08ffbf2c9e63df7448c5a34845f608f3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 895266046}
-    - target: {fileID: 114594397357313614, guid: 08ffbf2c9e63df7448c5a34845f608f3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 895266046}
-    - target: {fileID: 114433877076424726, guid: 08ffbf2c9e63df7448c5a34845f608f3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 895266046}
-    - target: {fileID: 114236094095228098, guid: 08ffbf2c9e63df7448c5a34845f608f3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 895266046}
-    - target: {fileID: 114004117364407458, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+    - target: {fileID: 114563614699621252, guid: 08ffbf2c9e63df7448c5a34845f608f3,
         type: 2}
       propertyPath: plot
       value: 
@@ -698,11 +628,81 @@ Prefab:
       propertyPath: plot
       value: 
       objectReference: {fileID: 337444474}
-    - target: {fileID: 114563614699621252, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+    - target: {fileID: 114004117364407458, guid: 08ffbf2c9e63df7448c5a34845f608f3,
         type: 2}
       propertyPath: plot
       value: 
       objectReference: {fileID: 337444474}
+    - target: {fileID: 114236094095228098, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 895266046}
+    - target: {fileID: 114433877076424726, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 895266046}
+    - target: {fileID: 114594397357313614, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 895266046}
+    - target: {fileID: 114420429447664886, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 895266046}
+    - target: {fileID: 114135420371954610, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 895266046}
+    - target: {fileID: 114210357703654158, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 895266046}
+    - target: {fileID: 114327548161112516, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 895266046}
+    - target: {fileID: 114398438842667458, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 895266046}
+    - target: {fileID: 114775313083670764, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 895266046}
+    - target: {fileID: 114515133177279972, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 895266046}
+    - target: {fileID: 114047704402425124, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 895266046}
+    - target: {fileID: 114981104498868830, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 895266046}
+    - target: {fileID: 114597669066577346, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 895266046}
+    - target: {fileID: 114538957255312996, guid: 08ffbf2c9e63df7448c5a34845f608f3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 895266046}
     - target: {fileID: 114601774263203872, guid: 08ffbf2c9e63df7448c5a34845f608f3,
         type: 2}
       propertyPath: npc
@@ -770,91 +770,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114040210768513398, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114469292511635080, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114649857232848258, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114688240233838884, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114283795899899436, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114493572573395960, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114915975538638478, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114546303158468166, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114018419566125474, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477156}
-    - target: {fileID: 114935012653600272, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114073365085148504, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114230325050242360, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114745314880942582, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477156}
-    - target: {fileID: 114699264407328226, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114858246502355682, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114583513111630022, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114275862814665852, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477156}
     - target: {fileID: 114607519068335246, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
         type: 2}
       propertyPath: npc
@@ -880,6 +795,91 @@ Prefab:
       propertyPath: playerResponseTexts.Array.data[2]
       value: 
       objectReference: {fileID: 467277722}
+    - target: {fileID: 114275862814665852, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477156}
+    - target: {fileID: 114583513111630022, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114858246502355682, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114699264407328226, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114745314880942582, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477156}
+    - target: {fileID: 114230325050242360, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114073365085148504, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114935012653600272, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114018419566125474, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477156}
+    - target: {fileID: 114546303158468166, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114915975538638478, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114493572573395960, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114283795899899436, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114688240233838884, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114649857232848258, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114469292511635080, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114040210768513398, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bfaa8f26e37b9445b1327d87ecc639b, type: 2}
   m_IsPrefabAsset: 0
@@ -1015,81 +1015,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 114112433015199278, guid: ee500bfc663c01a41a106d21bb8555fc,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477157}
-    - target: {fileID: 114905579713424386, guid: ee500bfc663c01a41a106d21bb8555fc,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477157}
-    - target: {fileID: 114945536248027584, guid: ee500bfc663c01a41a106d21bb8555fc,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477157}
-    - target: {fileID: 114493248954309698, guid: ee500bfc663c01a41a106d21bb8555fc,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477157}
-    - target: {fileID: 114233366876282774, guid: ee500bfc663c01a41a106d21bb8555fc,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477157}
-    - target: {fileID: 114445930173624296, guid: ee500bfc663c01a41a106d21bb8555fc,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477157}
-    - target: {fileID: 114001118171460044, guid: ee500bfc663c01a41a106d21bb8555fc,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114107711518916898, guid: ee500bfc663c01a41a106d21bb8555fc,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477157}
-    - target: {fileID: 114447945753218410, guid: ee500bfc663c01a41a106d21bb8555fc,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477157}
-    - target: {fileID: 114196295504040322, guid: ee500bfc663c01a41a106d21bb8555fc,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477157}
-    - target: {fileID: 114410846590348028, guid: ee500bfc663c01a41a106d21bb8555fc,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
-    - target: {fileID: 114070574533231250, guid: ee500bfc663c01a41a106d21bb8555fc,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477157}
-    - target: {fileID: 114253810263369470, guid: ee500bfc663c01a41a106d21bb8555fc,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477157}
-    - target: {fileID: 114034165525527652, guid: ee500bfc663c01a41a106d21bb8555fc,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477157}
-    - target: {fileID: 114538194399110494, guid: ee500bfc663c01a41a106d21bb8555fc,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477158}
     - target: {fileID: 114124895530000342, guid: ee500bfc663c01a41a106d21bb8555fc,
         type: 2}
       propertyPath: npc
@@ -1115,9 +1040,82 @@ Prefab:
       propertyPath: playerResponseTexts.Array.data[2]
       value: 
       objectReference: {fileID: 467277722}
-    m_RemovedComponents:
-    - {fileID: 114945536248027584, guid: ee500bfc663c01a41a106d21bb8555fc, type: 2}
-    - {fileID: 114112433015199278, guid: ee500bfc663c01a41a106d21bb8555fc, type: 2}
+    - target: {fileID: 114538194399110494, guid: ee500bfc663c01a41a106d21bb8555fc,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114034165525527652, guid: ee500bfc663c01a41a106d21bb8555fc,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477157}
+    - target: {fileID: 114253810263369470, guid: ee500bfc663c01a41a106d21bb8555fc,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477157}
+    - target: {fileID: 114070574533231250, guid: ee500bfc663c01a41a106d21bb8555fc,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477157}
+    - target: {fileID: 114410846590348028, guid: ee500bfc663c01a41a106d21bb8555fc,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114196295504040322, guid: ee500bfc663c01a41a106d21bb8555fc,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477157}
+    - target: {fileID: 114447945753218410, guid: ee500bfc663c01a41a106d21bb8555fc,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477157}
+    - target: {fileID: 114107711518916898, guid: ee500bfc663c01a41a106d21bb8555fc,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477157}
+    - target: {fileID: 114001118171460044, guid: ee500bfc663c01a41a106d21bb8555fc,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477158}
+    - target: {fileID: 114445930173624296, guid: ee500bfc663c01a41a106d21bb8555fc,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477157}
+    - target: {fileID: 114233366876282774, guid: ee500bfc663c01a41a106d21bb8555fc,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477157}
+    - target: {fileID: 114493248954309698, guid: ee500bfc663c01a41a106d21bb8555fc,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477157}
+    - target: {fileID: 114905579713424386, guid: ee500bfc663c01a41a106d21bb8555fc,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477157}
+    - target: {fileID: 114017372225978866, guid: ee500bfc663c01a41a106d21bb8555fc,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477157}
+    - target: {fileID: 114360861999183932, guid: ee500bfc663c01a41a106d21bb8555fc,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477157}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee500bfc663c01a41a106d21bb8555fc, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &851499285 stripped
@@ -1125,42 +1123,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4763814313845454, guid: ee500bfc663c01a41a106d21bb8555fc,
     type: 2}
   m_PrefabInternal: {fileID: 851499284}
---- !u!1 &851499286 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1206184430874324, guid: ee500bfc663c01a41a106d21bb8555fc,
-    type: 2}
-  m_PrefabInternal: {fileID: 851499284}
---- !u!1 &851499287 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1581425011605776, guid: ee500bfc663c01a41a106d21bb8555fc,
-    type: 2}
-  m_PrefabInternal: {fileID: 851499284}
---- !u!114 &851499288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 851499286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plot: {fileID: 2086477157}
-  expectedValue: 3
---- !u!114 &851499289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 851499287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plot: {fileID: 2086477157}
-  expectedValue: 1
 --- !u!114 &895266046 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114584513271604626, guid: 0cccfe023b0d544cba18d9ba458ca471,
@@ -1543,22 +1505,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114154562285501502, guid: 8ac52c37324ca4e4bad506b6df5331ed,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 337444474}
-    - target: {fileID: 114814259395152116, guid: 8ac52c37324ca4e4bad506b6df5331ed,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 337444474}
-    - target: {fileID: 114783913523147700, guid: 8ac52c37324ca4e4bad506b6df5331ed,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 337444474}
-    - target: {fileID: 114637013195977264, guid: 8ac52c37324ca4e4bad506b6df5331ed,
+    - target: {fileID: 114760886285181640, guid: 8ac52c37324ca4e4bad506b6df5331ed,
         type: 2}
       propertyPath: plot
       value: 
@@ -1568,7 +1515,22 @@ Prefab:
       propertyPath: plot
       value: 
       objectReference: {fileID: 337444474}
-    - target: {fileID: 114760886285181640, guid: 8ac52c37324ca4e4bad506b6df5331ed,
+    - target: {fileID: 114637013195977264, guid: 8ac52c37324ca4e4bad506b6df5331ed,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 337444474}
+    - target: {fileID: 114783913523147700, guid: 8ac52c37324ca4e4bad506b6df5331ed,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 337444474}
+    - target: {fileID: 114814259395152116, guid: 8ac52c37324ca4e4bad506b6df5331ed,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 337444474}
+    - target: {fileID: 114154562285501502, guid: 8ac52c37324ca4e4bad506b6df5331ed,
         type: 2}
       propertyPath: plot
       value: 
@@ -1646,6 +1608,31 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114932008453659288, guid: 5498515974842934a8777e8177f7aee3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1902164794}
+    - target: {fileID: 114458755545317394, guid: 5498515974842934a8777e8177f7aee3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1902164794}
+    - target: {fileID: 114547491550117414, guid: 5498515974842934a8777e8177f7aee3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1902164794}
+    - target: {fileID: 114559932380051430, guid: 5498515974842934a8777e8177f7aee3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1902164794}
+    - target: {fileID: 114589932233308856, guid: 5498515974842934a8777e8177f7aee3,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1902164794}
     - target: {fileID: 114145616290873064, guid: 5498515974842934a8777e8177f7aee3,
         type: 2}
       propertyPath: npc
@@ -1671,31 +1658,6 @@ Prefab:
       propertyPath: playerResponseTexts.Array.data[2]
       value: 
       objectReference: {fileID: 467277722}
-    - target: {fileID: 114589932233308856, guid: 5498515974842934a8777e8177f7aee3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1902164794}
-    - target: {fileID: 114559932380051430, guid: 5498515974842934a8777e8177f7aee3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1902164794}
-    - target: {fileID: 114547491550117414, guid: 5498515974842934a8777e8177f7aee3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1902164794}
-    - target: {fileID: 114458755545317394, guid: 5498515974842934a8777e8177f7aee3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1902164794}
-    - target: {fileID: 114932008453659288, guid: 5498515974842934a8777e8177f7aee3,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1902164794}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5498515974842934a8777e8177f7aee3, type: 2}
   m_IsPrefabAsset: 0
@@ -1948,6 +1910,36 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114881583846593998, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1040453849}
+    - target: {fileID: 114154121564779158, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1040453849}
+    - target: {fileID: 114227858667549232, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1040453849}
+    - target: {fileID: 114523966056947874, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1040453849}
+    - target: {fileID: 114633513741286724, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1040453849}
+    - target: {fileID: 114940680662795856, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 1040453849}
     - target: {fileID: 114180609739410440, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
         type: 2}
       propertyPath: npc
@@ -1973,36 +1965,6 @@ Prefab:
       propertyPath: playerResponseTexts.Array.data[2]
       value: 
       objectReference: {fileID: 467277722}
-    - target: {fileID: 114940680662795856, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1040453849}
-    - target: {fileID: 114633513741286724, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1040453849}
-    - target: {fileID: 114523966056947874, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1040453849}
-    - target: {fileID: 114227858667549232, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1040453849}
-    - target: {fileID: 114154121564779158, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1040453849}
-    - target: {fileID: 114881583846593998, guid: 3640958e69d2a2e4c8b9513f0f6bd141,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 1040453849}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3640958e69d2a2e4c8b9513f0f6bd141, type: 2}
   m_IsPrefabAsset: 0
@@ -2209,22 +2171,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114281199125168904, guid: a4a1760d10d054813b806c22bf889b72,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477156}
-    - target: {fileID: 114494852100449422, guid: a4a1760d10d054813b806c22bf889b72,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477156}
-    - target: {fileID: 114588430182399668, guid: a4a1760d10d054813b806c22bf889b72,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 2086477156}
-    - target: {fileID: 114699555504939374, guid: a4a1760d10d054813b806c22bf889b72,
+    - target: {fileID: 114692795745214392, guid: a4a1760d10d054813b806c22bf889b72,
         type: 2}
       propertyPath: plot
       value: 
@@ -2234,7 +2181,22 @@ Prefab:
       propertyPath: plot
       value: 
       objectReference: {fileID: 2086477156}
-    - target: {fileID: 114692795745214392, guid: a4a1760d10d054813b806c22bf889b72,
+    - target: {fileID: 114699555504939374, guid: a4a1760d10d054813b806c22bf889b72,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477156}
+    - target: {fileID: 114588430182399668, guid: a4a1760d10d054813b806c22bf889b72,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477156}
+    - target: {fileID: 114494852100449422, guid: a4a1760d10d054813b806c22bf889b72,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 2086477156}
+    - target: {fileID: 114281199125168904, guid: a4a1760d10d054813b806c22bf889b72,
         type: 2}
       propertyPath: plot
       value: 
@@ -2510,6 +2472,36 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114043559899728012, guid: 37dd29f5b501fb8468bba1bb006ea920,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 734063502}
+    - target: {fileID: 114637415236445458, guid: 37dd29f5b501fb8468bba1bb006ea920,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 734063502}
+    - target: {fileID: 114892235435353592, guid: 37dd29f5b501fb8468bba1bb006ea920,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 734063502}
+    - target: {fileID: 114100262966199790, guid: 37dd29f5b501fb8468bba1bb006ea920,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 734063502}
+    - target: {fileID: 114823534779406598, guid: 37dd29f5b501fb8468bba1bb006ea920,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 734063502}
+    - target: {fileID: 114300902960843890, guid: 37dd29f5b501fb8468bba1bb006ea920,
+        type: 2}
+      propertyPath: plot
+      value: 
+      objectReference: {fileID: 734063502}
     - target: {fileID: 114820866162406466, guid: 37dd29f5b501fb8468bba1bb006ea920,
         type: 2}
       propertyPath: npc
@@ -2535,36 +2527,6 @@ Prefab:
       propertyPath: playerResponseTexts.Array.data[2]
       value: 
       objectReference: {fileID: 467277722}
-    - target: {fileID: 114300902960843890, guid: 37dd29f5b501fb8468bba1bb006ea920,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 734063502}
-    - target: {fileID: 114823534779406598, guid: 37dd29f5b501fb8468bba1bb006ea920,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 734063502}
-    - target: {fileID: 114100262966199790, guid: 37dd29f5b501fb8468bba1bb006ea920,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 734063502}
-    - target: {fileID: 114892235435353592, guid: 37dd29f5b501fb8468bba1bb006ea920,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 734063502}
-    - target: {fileID: 114637415236445458, guid: 37dd29f5b501fb8468bba1bb006ea920,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 734063502}
-    - target: {fileID: 114043559899728012, guid: 37dd29f5b501fb8468bba1bb006ea920,
-        type: 2}
-      propertyPath: plot
-      value: 
-      objectReference: {fileID: 734063502}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37dd29f5b501fb8468bba1bb006ea920, type: 2}
   m_IsPrefabAsset: 0

@@ -1571,7 +1571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
-  expectedValue: 3
+  expectedValues: 03000000
 --- !u!114 &114020553214533006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1654,7 +1654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
-  expectedValue: 5
+  expectedValues: 05000000
 --- !u!114 &114051168555025368
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2088,7 +2088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
-  expectedValue: 1
+  expectedValues: 01000000
 --- !u!114 &114282091294143108
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2118,7 +2118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
-  expectedValue: 1
+  expectedValues: 01000000
 --- !u!114 &114296292196980068
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2314,7 +2314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
-  expectedValue: 4
+  expectedValues: 04000000
 --- !u!114 &114471426507224966
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2630,7 +2630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
-  expectedValue: 3
+  expectedValues: 03000000
 --- !u!114 &114653096838548916
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2703,7 +2703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
-  expectedValue: 2
+  expectedValues: 02000000
 --- !u!114 &114697929753956138
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2783,7 +2783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plot: {fileID: 0}
-  expectedValue: 2
+  expectedValues: 02000000
 --- !u!114 &114752191946591736
 MonoBehaviour:
   m_ObjectHideFlags: 1
