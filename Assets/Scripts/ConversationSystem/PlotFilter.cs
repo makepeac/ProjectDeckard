@@ -8,10 +8,17 @@ public class PlotFilter : MonoBehaviour
     Plot plot;
 
     [SerializeField]
-    string expectedValue;
+    List<int> expectedValues;
 
     public bool isActive()
     {
-        return this.plot.getPlotValue() == this.expectedValue;
+        foreach (int value in this.expectedValues)
+        {
+            if (int.Parse(this.plot.getPlotValue()) == value)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
