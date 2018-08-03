@@ -1,12 +1,13 @@
 fileFormatVersion: 2
-guid: 4706b7d7135ea444fbf292012c121af4
+guid: 77e22965123b24d0684ca09d25241996
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Command Room Present_0
-    21300002: Command Room Present_1
-    21300004: Command Room Present_2
+    21300000: MechanicRoomPresent_0
+    21300002: MechanicRoomPresent_1
+    21300004: MechanicRoomPresent_2
+    21300006: MechanicRoomPresent_3
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 6
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -44,8 +45,8 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
-  spriteMeshType: 1
+  spriteExtrude: 0
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
@@ -87,13 +88,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Command Room Present_0
+      name: MechanicRoomPresent_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 280
-        width: 319
-        height: 140
+        y: 384
+        width: 384
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -101,19 +102,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13c325c989361478486b972a04d62932
+      spriteID: 86d7cbe82bfc7c6488d3c0036ed5bc2b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Command Room Present_1
+      name: MechanicRoomPresent_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 140
-        width: 319
-        height: 140
+        y: 256
+        width: 384
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,19 +122,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f51da3ef83b842968dcef35cc1a3e2e
+      spriteID: 08631f1085b58794699cd6aaa926f004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Command Room Present_2
+      name: MechanicRoomPresent_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 384
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa834720143a2349a07075b33a0ba11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MechanicRoomPresent_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 319
-        height: 140
+        width: 384
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,7 +162,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f347a5627eb1c4cd29ddcd42c34fafc7
+      spriteID: 027fc95bdd3285c49aadc428f9f3e90d
       vertices: []
       indices: 
       edges: []
@@ -149,14 +170,12 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 13b3019400e6f49f4b6503a905b093b8
+    spriteID: 905767929d28f4ac4b2c76ea0a4b0d49
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
