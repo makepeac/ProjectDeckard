@@ -1,11 +1,12 @@
 fileFormatVersion: 2
-guid: c667242d706064f58aa9b37f29cf7917
+guid: 4706b7d7135ea444fbf292012c121af4
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ArboretumPresent_0
-    21300002: ArboretumPresent_1
+    21300000: Command Room Present_0
+    21300002: Command Room Present_1
+    21300004: Command Room Present_2
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 6
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -43,8 +44,8 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
-  spriteMeshType: 1
+  spriteExtrude: 0
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
@@ -86,13 +87,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ArboretumPresent_0
+      name: Command Room Present_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 288
-        height: 128
+        y: 280
+        width: 320
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -100,19 +101,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c0b93671243744aba119e150bec2a2e
+      spriteID: 9ed0addd37e738c4791b0260505dd445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ArboretumPresent_1
+      name: Command Room Present_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 288
-        height: 128
+        y: 140
+        width: 320
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +121,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb69685f717264947ad138fe1e2a2825
+      spriteID: ee48b61af4343e644aac309d94879246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Command Room Present_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 320
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f220bd8068586a4e9d5183d353a4247
       vertices: []
       indices: 
       edges: []
@@ -128,14 +149,12 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f1ee2c179ad144a2f9110d764e3e6e18
+    spriteID: 13b3019400e6f49f4b6503a905b093b8
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

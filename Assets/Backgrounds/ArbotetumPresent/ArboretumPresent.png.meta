@@ -1,13 +1,11 @@
 fileFormatVersion: 2
-guid: 77e22965123b24d0684ca09d25241996
+guid: c667242d706064f58aa9b37f29cf7917
 TextureImporter:
   fileIDToRecycleName:
-    21300000: MechanicRoomPresent_0
-    21300002: MechanicRoomPresent_1
-    21300004: MechanicRoomPresent_2
-    21300006: MechanicRoomPresent_3
+    21300000: ArboretumPresent_0
+    21300002: ArboretumPresent_1
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 6
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -45,8 +43,8 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
-  spriteMeshType: 1
+  spriteExtrude: 0
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
@@ -88,52 +86,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MechanicRoomPresent_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 384
-        width: 384
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9eea5ff1a390046d69822de0157d6db0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MechanicRoomPresent_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 256
-        width: 384
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49d77391555c3450a83e22fdf0f41883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MechanicRoomPresent_2
+      name: ArboretumPresent_0
       rect:
         serializedVersion: 2
         x: 0
         y: 128
-        width: 384
+        width: 288
         height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -142,18 +100,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8614b9b6455b049e2af17bec1d3f6160
+      spriteID: c44bb3a4c307cd74e9bc4f0a09c5f0de
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MechanicRoomPresent_3
+      name: ArboretumPresent_1
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 384
+        width: 288
         height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -162,7 +120,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02c68ff1595204647a8dafbd7e6f5720
+      spriteID: bf5179e428602a144b342f5480adcaf7
       vertices: []
       indices: 
       edges: []
@@ -170,14 +128,12 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 905767929d28f4ac4b2c76ea0a4b0d49
+    spriteID: f1ee2c179ad144a2f9110d764e3e6e18
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
