@@ -1,0 +1,3056 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1243990719014730}
+  m_IsPrefabAsset: 1
+--- !u!1 &1003036758132464
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4204671937265348}
+  - component: {fileID: 114184251766035720}
+  - component: {fileID: 114534657917979100}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CBetter than yesterday, then. That\u2019s good.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1011601021407252
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4320209521398600}
+  - component: {fileID: 114592330857428024}
+  - component: {fileID: 114794294981191708}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CWell, that\u2019s kind of an improvement. I guess.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1017050347112542
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4998649272269660}
+  - component: {fileID: 114106705611979480}
+  - component: {fileID: 114874340902255332}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CYou know, aside from the fact that they\u2019re old and
+    terrible and barely deliver any power anymore.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1020349548030928
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4680006935079054}
+  - component: {fileID: 114605573694118060}
+  - component: {fileID: 114347657996344124}
+  - component: {fileID: 114915975538638478}
+  m_Layer: 0
+  m_Name: PC:Negative
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1023169641986914
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4942812619869120}
+  - component: {fileID: 114840831740582954}
+  - component: {fileID: 114637873124240200}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CIf you\u2019re gonna be in a mood, can you be in a mood
+    somewhere else? I need to figure out what\u2019s wrong with the power conduits.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1032685105319790
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4043647047992860}
+  - component: {fileID: 114631992817101438}
+  - component: {fileID: 114402146293558304}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201COh hey. Hi. Everything okay?\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1051124750902096
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4071327677703326}
+  - component: {fileID: 114540311175282842}
+  - component: {fileID: 114199970712735534}
+  - component: {fileID: 114858246502355682}
+  m_Layer: 0
+  m_Name: PC:Negative
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1144074675540282
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4245831547281560}
+  - component: {fileID: 114897024821399516}
+  - component: {fileID: 114752191946591736}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CYou know, aside from the fact that they\u2019re old and
+    terrible and barely deliver any power anymore.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1157856562598742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4507932363947136}
+  - component: {fileID: 114323252387478382}
+  - component: {fileID: 114007296562930236}
+  - component: {fileID: 114745314880942582}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201C... Aaand there go the docking clamps. Again. Planned obsolescence
+    at its finest.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1169923648564794
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4730170466446760}
+  - component: {fileID: 114116669146664700}
+  - component: {fileID: 114490635386077250}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CIf you don\u2019t need me, I should get back to work. Still
+    trying to figure out what\u2019s wrong with the power conduits.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1178974470677632
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4950674965211182}
+  - component: {fileID: 114077250303253358}
+  - component: {fileID: 114078741636142788}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201COh, it\u2019s you. Are we still feeling cranky?\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1192681910179170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4493570573056532}
+  - component: {fileID: 114020553214533006}
+  - component: {fileID: 114354171606999338}
+  - component: {fileID: 114469292511635080}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CI\u2019m glad you\u2019re feeling better. I\u2019m also
+    super busy.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1233612380523368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4709552541605812}
+  - component: {fileID: 114051168555025368}
+  - component: {fileID: 114677450355786670}
+  - component: {fileID: 114275862814665852}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201C... Aaand there go the docking clamps. Again. Planned obsolescence
+    at its finest.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1243990719014730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4596182078168576}
+  - component: {fileID: 114607519068335246}
+  m_Layer: 0
+  m_Name: 2-7Workshop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1258114498798688
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4845840405300218}
+  - component: {fileID: 114862519496426846}
+  - component: {fileID: 114699549173159674}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CYou don\u2019t need to snap at me, I was just asking.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1276025385374320
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4366938164384166}
+  - component: {fileID: 114516635591010418}
+  - component: {fileID: 114027913518565776}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CYou sure? You seem a little \u2018bleh\u2019 today.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1283426253488956
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4917562951802456}
+  - component: {fileID: 114842981278583104}
+  - component: {fileID: 114342381129466514}
+  - component: {fileID: 114546303158468166}
+  m_Layer: 0
+  m_Name: PC:Positive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1297024330831330
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4666082221542698}
+  - component: {fileID: 114107781470934140}
+  - component: {fileID: 114211791370238974}
+  - component: {fileID: 114583513111630022}
+  m_Layer: 0
+  m_Name: PC:Positive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1315913858870774
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4778990207179002}
+  - component: {fileID: 114065592232881752}
+  - component: {fileID: 114178827806903018}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CCan we talk later? I need to figure out what\u2019s wrong
+    with the power conduits.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1329558011650550
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4331477349746962}
+  - component: {fileID: 114853534519254232}
+  - component: {fileID: 114165112592326196}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CYou know, aside from the fact that they\u2019re old and
+    terrible and barely deliver any power anymore.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1332850300087848
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4125753264171398}
+  - component: {fileID: 114282091294143108}
+  - component: {fileID: 114519379500780314}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CYou know, aside from the fact that they\u2019re old and
+    terrible and barely deliver any power anymore.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1334082387441828
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4519248125828038}
+  - component: {fileID: 114146429035401068}
+  - component: {fileID: 114139029598336894}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CYou know, aside from the fact that they\u2019re old and
+    terrible and barely deliver any power anymore.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1386665346628720
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4761536195593518}
+  - component: {fileID: 114660976406585154}
+  - component: {fileID: 114296292196980068}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CWell, there\u2019s some good news at least.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1395702309329708
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4297611288421684}
+  - component: {fileID: 114726178646830778}
+  - component: {fileID: 114683867088438870}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CSo the usual, then.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1402187697265968
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4955707902809702}
+  - component: {fileID: 114244542284033498}
+  - component: {fileID: 114107080856827222}
+  - component: {fileID: 114230325050242360}
+  m_Layer: 0
+  m_Name: PC:Positive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1508553683954144
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4495179489415226}
+  - component: {fileID: 114224449842927674}
+  - component: {fileID: 114079388527408874}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201COh. It\u2019s gonna be one of those days, I guess.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1538324832111580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4491336857128620}
+  - component: {fileID: 114726790519470354}
+  - component: {fileID: 114495716053392140}
+  - component: {fileID: 114283795899899436}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CHi! Sorry! Busy!\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1544542277956574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4193273605046916}
+  - component: {fileID: 114551662545839192}
+  - component: {fileID: 114653096838548916}
+  - component: {fileID: 114649857232848258}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CHi. Busy. Later.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1557505321062548
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4988231255433856}
+  - component: {fileID: 114389209250107610}
+  - component: {fileID: 114001035224955142}
+  - component: {fileID: 114073365085148504}
+  m_Layer: 0
+  m_Name: PC:Negative
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1578498548826984
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4321656379972744}
+  - component: {fileID: 114350778474857616}
+  - component: {fileID: 114677589516873448}
+  - component: {fileID: 114935012653600272}
+  m_Layer: 0
+  m_Name: PC:Neutral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1590137939395008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4881677941989686}
+  - component: {fileID: 114968500552674180}
+  - component: {fileID: 114091182987058306}
+  - component: {fileID: 114040210768513398}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CI know you\u2019re in a mood but I really need to work
+    here.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1621769014718106
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4439161801506710}
+  - component: {fileID: 114915493093162136}
+  - component: {fileID: 114614762036672854}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CCan we talk later? I need to figure out what\u2019s wrong
+    with the power conduits.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1652146929733800
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4893134685421258}
+  - component: {fileID: 114228140944501578}
+  - component: {fileID: 114274400537090678}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CYeah, I figured.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1660462400279354
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4987843123251050}
+  - component: {fileID: 114872838845386776}
+  - component: {fileID: 114489593450602598}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CListen, can we do this later? I need to figure out what\u2019s
+    wrong with the power conduits.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1716141915573818
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4279899842149784}
+  - component: {fileID: 114953780574095726}
+  - component: {fileID: 114239788491072312}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CWe\u2019ll talk about it later. I\u2019m trying to figure
+    out what\u2019s wrong with the power conduits.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1717366904499330
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4306187494163916}
+  - component: {fileID: 114946406900578798}
+  - component: {fileID: 114388699837095598}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CYou know, aside from the fact that they\u2019re old and
+    terrible and barely deliver any power anymore.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1718802098744126
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4261030069093198}
+  - component: {fileID: 114265352040413186}
+  - component: {fileID: 114417077493649648}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CI\u2019d love to talk, but can we do that later? I need
+    to figure out what\u2019s wrong with the power conduits.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1743316733804224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4863185593815696}
+  - component: {fileID: 114648207764828370}
+  - component: {fileID: 114026228895119056}
+  - component: {fileID: 114018419566125474}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201C... Aaand there go the docking clamps. Again. Planned obsolescence
+    at its finest.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1744578967511546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4731785815067458}
+  - component: {fileID: 114471426507224966}
+  - component: {fileID: 114847647041467872}
+  - component: {fileID: 114688240233838884}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CI can\u2019t focus with you glaring holes in my back.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1757531886485362
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4030907354831342}
+  - component: {fileID: 114039778181983138}
+  - component: {fileID: 114937644491223886}
+  - component: {fileID: 114699264407328226}
+  m_Layer: 0
+  m_Name: PC:Neutral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1808878523351366
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4802926559778456}
+  - component: {fileID: 114080342379805638}
+  - component: {fileID: 114863226964433594}
+  - component: {fileID: 114493572573395960}
+  m_Layer: 0
+  m_Name: PC:Neutral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1809966655618602
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4496715693921832}
+  - component: {fileID: 114417242233906580}
+  - component: {fileID: 114581941167058458}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201COh, hi. You\u2019re back. How are we feeling today?\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1855549943224202
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4058193763043260}
+  - component: {fileID: 114025710600851998}
+  - component: {fileID: 114179552582478524}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CCome see me later and you can vent all you like. But right
+    now, I need to figure out what\u2019s wrong with the power conduits.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1865668841814174
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4376169856674948}
+  - component: {fileID: 114514409741771956}
+  - component: {fileID: 114261328864935814}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CYou know, aside from the fact that they\u2019re old and
+    terrible and barely deliver any power anymore.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1867003248068186
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4901772480913178}
+  - component: {fileID: 114189045044702492}
+  - component: {fileID: 114305039333695970}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CListen, I\u2019d love to talk, but right now I need to
+    figure out what\u2019s wrong with the power conduits.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1904699320577132
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4252580741115694}
+  - component: {fileID: 114086179809738750}
+  - component: {fileID: 114697929753956138}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201COkay, good. One less thing to worry about.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1939900515667760
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4864118211756162}
+  - component: {fileID: 114463903535528828}
+  - component: {fileID: 114090289421187070}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CYou know, aside from the fact that they\u2019re old and
+    terrible and barely deliver any power anymore.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1948456872486880
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4493747659062110}
+  - component: {fileID: 114331447523732706}
+  - component: {fileID: 114614574219982286}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201C... Aside from the fact that they\u2019re old and terrible
+    and barely deliver any power anymore.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4030907354831342
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1757531886485362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4366938164384166}
+  m_Father: {fileID: 4043647047992860}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4043647047992860
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032685105319790}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4666082221542698}
+  - {fileID: 4071327677703326}
+  - {fileID: 4030907354831342}
+  m_Father: {fileID: 4709552541605812}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4058193763043260
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1855549943224202}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4493747659062110}
+  m_Father: {fileID: 4495179489415226}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4071327677703326
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051124750902096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4495179489415226}
+  m_Father: {fileID: 4043647047992860}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4125753264171398
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1332850300087848}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4778990207179002}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4193273605046916
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1544542277956574}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4596182078168576}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4204671937265348
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1003036758132464}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4261030069093198}
+  m_Father: {fileID: 4917562951802456}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4245831547281560
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1144074675540282}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4279899842149784}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4252580741115694
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904699320577132}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4439161801506710}
+  m_Father: {fileID: 4666082221542698}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4261030069093198
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1718802098744126}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4864118211756162}
+  m_Father: {fileID: 4204671937265348}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4279899842149784
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1716141915573818}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4245831547281560}
+  m_Father: {fileID: 4366938164384166}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4297611288421684
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1395702309329708}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4730170466446760}
+  m_Father: {fileID: 4802926559778456}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4306187494163916
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1717366904499330}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4942812619869120}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4320209521398600
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1011601021407252}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4778990207179002}
+  m_Father: {fileID: 4321656379972744}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4321656379972744
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1578498548826984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4320209521398600}
+  m_Father: {fileID: 4950674965211182}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4331477349746962
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1329558011650550}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4439161801506710}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4366938164384166
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1276025385374320}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4279899842149784}
+  m_Father: {fileID: 4030907354831342}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4376169856674948
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1865668841814174}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4730170466446760}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4439161801506710
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1621769014718106}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4331477349746962}
+  m_Father: {fileID: 4252580741115694}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4491336857128620
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1538324832111580}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4596182078168576}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4493570573056532
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192681910179170}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4596182078168576}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4493747659062110
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1948456872486880}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4058193763043260}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4495179489415226
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1508553683954144}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4058193763043260}
+  m_Father: {fileID: 4071327677703326}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4496715693921832
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809966655618602}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4917562951802456}
+  - {fileID: 4680006935079054}
+  - {fileID: 4802926559778456}
+  m_Father: {fileID: 4863185593815696}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4507932363947136
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1157856562598742}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4950674965211182}
+  m_Father: {fileID: 4596182078168576}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4519248125828038
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1334082387441828}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4987843123251050}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4596182078168576
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1243990719014730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4709552541605812}
+  - {fileID: 4507932363947136}
+  - {fileID: 4863185593815696}
+  - {fileID: 4491336857128620}
+  - {fileID: 4731785815067458}
+  - {fileID: 4193273605046916}
+  - {fileID: 4493570573056532}
+  - {fileID: 4881677941989686}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4666082221542698
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1297024330831330}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4252580741115694}
+  m_Father: {fileID: 4043647047992860}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4680006935079054
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020349548030928}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4845840405300218}
+  m_Father: {fileID: 4496715693921832}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4709552541605812
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233612380523368}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4043647047992860}
+  m_Father: {fileID: 4596182078168576}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4730170466446760
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1169923648564794}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4376169856674948}
+  m_Father: {fileID: 4297611288421684}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4731785815067458
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1744578967511546}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4596182078168576}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4761536195593518
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1386665346628720}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4901772480913178}
+  m_Father: {fileID: 4955707902809702}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4778990207179002
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1315913858870774}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4125753264171398}
+  m_Father: {fileID: 4320209521398600}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4802926559778456
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808878523351366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4297611288421684}
+  m_Father: {fileID: 4496715693921832}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4845840405300218
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258114498798688}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4987843123251050}
+  m_Father: {fileID: 4680006935079054}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4863185593815696
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1743316733804224}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4496715693921832}
+  m_Father: {fileID: 4596182078168576}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4864118211756162
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1939900515667760}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4261030069093198}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4881677941989686
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1590137939395008}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4596182078168576}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4893134685421258
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652146929733800}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4942812619869120}
+  m_Father: {fileID: 4988231255433856}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4901772480913178
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1867003248068186}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4998649272269660}
+  m_Father: {fileID: 4761536195593518}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4917562951802456
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1283426253488956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4204671937265348}
+  m_Father: {fileID: 4496715693921832}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4942812619869120
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023169641986914}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4306187494163916}
+  m_Father: {fileID: 4893134685421258}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4950674965211182
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1178974470677632}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4955707902809702}
+  - {fileID: 4988231255433856}
+  - {fileID: 4321656379972744}
+  m_Father: {fileID: 4507932363947136}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4955707902809702
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402187697265968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4761536195593518}
+  m_Father: {fileID: 4950674965211182}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4987843123251050
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1660462400279354}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4519248125828038}
+  m_Father: {fileID: 4845840405300218}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4988231255433856
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1557505321062548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4893134685421258}
+  m_Father: {fileID: 4950674965211182}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4998649272269660
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1017050347112542}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4901772480913178}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114001035224955142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1557505321062548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114007296562930236
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1157856562598742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114018419566125474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1743316733804224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: 3
+--- !u!114 &114020553214533006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192681910179170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CI\u2019m glad you\u2019re feeling better. I\u2019m also super
+    busy.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 1
+--- !u!114 &114025710600851998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1855549943224202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CCome see me later and you can vent all you like. But right now,
+    I need to figure out what\u2019s wrong with the power conduits.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114026228895119056
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1743316733804224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114027913518565776
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1276025385374320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114039778181983138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1757531886485362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Neutral
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114040210768513398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1590137939395008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: 5
+--- !u!114 &114051168555025368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233612380523368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201C... Aaand there go the docking clamps. Again. Planned obsolescence
+    at its finest.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114065592232881752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1315913858870774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CCan we talk later? I need to figure out what\u2019s wrong with
+    the power conduits.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114073365085148504
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1557505321062548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 2
+--- !u!114 &114077250303253358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1178974470677632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201COh, it\u2019s you. Are we still feeling cranky?\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114078741636142788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1178974470677632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114079388527408874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1508553683954144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114080342379805638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808878523351366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Neutral
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114086179809738750
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904699320577132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201COkay, good. One less thing to worry about.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114090289421187070
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1939900515667760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114091182987058306
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1590137939395008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114106705611979480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1017050347112542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CYou know, aside from the fact that they\u2019re old and terrible
+    and barely deliver any power anymore.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114107080856827222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402187697265968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114107781470934140
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1297024330831330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Positive
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114116669146664700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1169923648564794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CIf you don\u2019t need me, I should get back to work. Still
+    trying to figure out what\u2019s wrong with the power conduits.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114139029598336894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1334082387441828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114146429035401068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1334082387441828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CYou know, aside from the fact that they\u2019re old and terrible
+    and barely deliver any power anymore.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114165112592326196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1329558011650550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114178827806903018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1315913858870774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114179552582478524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1855549943224202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114184251766035720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1003036758132464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CBetter than yesterday, then. That\u2019s good.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114189045044702492
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1867003248068186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CListen, I\u2019d love to talk, but right now I need to figure
+    out what\u2019s wrong with the power conduits.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114199970712735534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051124750902096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114211791370238974
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1297024330831330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114224449842927674
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1508553683954144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201COh. It\u2019s gonna be one of those days, I guess.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114228140944501578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652146929733800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CYeah, I figured.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114230325050242360
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402187697265968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 4
+--- !u!114 &114239788491072312
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1716141915573818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114244542284033498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402187697265968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Positive
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114261328864935814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1865668841814174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114265352040413186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1718802098744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CI\u2019d love to talk, but can we do that later? I need to figure
+    out what\u2019s wrong with the power conduits.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114274400537090678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652146929733800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114275862814665852
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233612380523368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: 1
+--- !u!114 &114282091294143108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1332850300087848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CYou know, aside from the fact that they\u2019re old and terrible
+    and barely deliver any power anymore.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114283795899899436
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1538324832111580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: 1
+--- !u!114 &114296292196980068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1386665346628720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114305039333695970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1867003248068186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114323252387478382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1157856562598742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201C... Aaand there go the docking clamps. Again. Planned obsolescence
+    at its finest.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114331447523732706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1948456872486880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201C... Aside from the fact that they\u2019re old and terrible and
+    barely deliver any power anymore.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114342381129466514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1283426253488956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114347657996344124
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020349548030928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114350778474857616
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1578498548826984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Neutral
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114354171606999338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192681910179170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114388699837095598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1717366904499330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114389209250107610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1557505321062548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Negative
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114402146293558304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032685105319790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114417077493649648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1718802098744126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114417242233906580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809966655618602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201COh, hi. You\u2019re back. How are we feeling today?\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114463903535528828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1939900515667760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CYou know, aside from the fact that they\u2019re old and terrible
+    and barely deliver any power anymore.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114469292511635080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192681910179170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: 4
+--- !u!114 &114471426507224966
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1744578967511546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CI can\u2019t focus with you glaring holes in my back.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 1
+--- !u!114 &114489593450602598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1660462400279354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114490635386077250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1169923648564794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114493572573395960
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808878523351366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 3
+--- !u!114 &114495716053392140
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1538324832111580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114514409741771956
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1865668841814174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CYou know, aside from the fact that they\u2019re old and terrible
+    and barely deliver any power anymore.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114516635591010418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1276025385374320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CYou sure? You seem a little \u2018bleh\u2019 today.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114519379500780314
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1332850300087848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114534657917979100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1003036758132464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114540311175282842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051124750902096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Negative
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114546303158468166
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1283426253488956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 4
+--- !u!114 &114551662545839192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1544542277956574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CHi. Busy. Later.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 1
+--- !u!114 &114581941167058458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809966655618602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114583513111630022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1297024330831330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 1
+--- !u!114 &114592330857428024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1011601021407252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CWell, that\u2019s kind of an improvement. I guess.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114605573694118060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020349548030928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Negative
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114607519068335246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1243990719014730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db2d07d97edf4b68836d88e7f967cb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completedResponses: []
+  currentNpcDialog: {fileID: 0}
+  npc: {fileID: 0}
+  npcText: {fileID: 0}
+  playerResponseTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  plotFilters: []
+  started: 0
+  completed: 0
+  canStartNextLine: 1
+--- !u!114 &114614574219982286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1948456872486880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114614762036672854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1621769014718106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114631992817101438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032685105319790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201COh hey. Hi. Everything okay?\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114637873124240200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023169641986914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114648207764828370
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1743316733804224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201C... Aaand there go the docking clamps. Again. Planned obsolescence
+    at its finest.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114649857232848258
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1544542277956574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: 3
+--- !u!114 &114653096838548916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1544542277956574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114660976406585154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1386665346628720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CWell, there\u2019s some good news at least.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114677450355786670
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233612380523368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114677589516873448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1578498548826984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114683867088438870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1395702309329708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114688240233838884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1744578967511546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: 2
+--- !u!114 &114697929753956138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904699320577132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114699264407328226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1757531886485362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 3
+--- !u!114 &114699549173159674
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258114498798688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114726178646830778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1395702309329708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CSo the usual, then.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114726790519470354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1538324832111580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CHi! Sorry! Busy!\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 1
+--- !u!114 &114745314880942582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1157856562598742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: 2
+--- !u!114 &114752191946591736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1144074675540282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114794294981191708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1011601021407252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114840831740582954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023169641986914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CIf you\u2019re gonna be in a mood, can you be in a mood somewhere
+    else? I need to figure out what\u2019s wrong with the power conduits.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114842981278583104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1283426253488956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Positive
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114847647041467872
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1744578967511546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114853534519254232
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1329558011650550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CYou know, aside from the fact that they\u2019re old and terrible
+    and barely deliver any power anymore.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114858246502355682
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051124750902096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 5
+--- !u!114 &114862519496426846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258114498798688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CYou don\u2019t need to snap at me, I was just asking.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114863226964433594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808878523351366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114872838845386776
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1660462400279354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CListen, can we do this later? I need to figure out what\u2019s
+    wrong with the power conduits.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114874340902255332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1017050347112542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114897024821399516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1144074675540282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CYou know, aside from the fact that they\u2019re old and terrible
+    and barely deliver any power anymore.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114915493093162136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1621769014718106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CCan we talk later? I need to figure out what\u2019s wrong with
+    the power conduits.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114915975538638478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020349548030928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 5
+--- !u!114 &114935012653600272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1578498548826984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 3
+--- !u!114 &114937644491223886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1757531886485362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114946406900578798
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1717366904499330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CYou know, aside from the fact that they\u2019re old and terrible
+    and barely deliver any power anymore.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114953780574095726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1716141915573818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CWe\u2019ll talk about it later. I\u2019m trying to figure out
+    what\u2019s wrong with the power conduits.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114968500552674180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1590137939395008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CI know you\u2019re in a mood but I really need to work here.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 1

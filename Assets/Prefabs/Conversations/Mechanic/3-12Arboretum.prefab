@@ -1,0 +1,2915 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1182018519571270}
+  m_IsPrefabAsset: 1
+--- !u!1 &1028237942701018
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4778070562712406}
+  - component: {fileID: 114950850578510488}
+  - component: {fileID: 114775475430931604}
+  - component: {fileID: 114107711518916898}
+  m_Layer: 0
+  m_Name: PC:Neutral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1062414487687248
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4366168721563260}
+  - component: {fileID: 114889955323377194}
+  - component: {fileID: 114056862584271540}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAlmost every system is down, and the remaining ones have
+    been rerouted to keep life support online.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1069259251082960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4171270665854360}
+  - component: {fileID: 114867146720365556}
+  - component: {fileID: 114243729908101382}
+  - component: {fileID: 114905579713424386}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CIf you yell at me again, I might cry. I\u2019m not kidding.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1083859498650370
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4606006107727994}
+  - component: {fileID: 114198004314319864}
+  - component: {fileID: 114070472476307288}
+  - component: {fileID: 114196295504040322}
+  m_Layer: 0
+  m_Name: PC:Positive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1104161315673374
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4221876204604762}
+  - component: {fileID: 114163172810170536}
+  - component: {fileID: 114867044331408638}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAlmost every system is down, and the remaining ones have
+    been rerouted to keep life support online.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1124744614791424
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4786415094875810}
+  - component: {fileID: 114311785394469442}
+  - component: {fileID: 114927512014464970}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201COh, god. Are you okay? Are you hurt?\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1142377955406306
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4228142969222736}
+  - component: {fileID: 114773823959817890}
+  - component: {fileID: 114869766152613056}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAnd even with all that, we could lose life support any
+    minute now.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1158057526006318
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4572896931204248}
+  - component: {fileID: 114929953382589972}
+  - component: {fileID: 114098523135804530}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CI\u2019m doing my best, all right?\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1168733123090340
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4169872892935710}
+  - component: {fileID: 114377155265676388}
+  - component: {fileID: 114930235360279602}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAnd even with all that, we could lose life support any
+    minute now.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1182018519571270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4763814313845454}
+  - component: {fileID: 114124895530000342}
+  m_Layer: 0
+  m_Name: 3-12Arboretum
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1197721194580678
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4828804366947550}
+  - component: {fileID: 114057434757154920}
+  - component: {fileID: 114329025870553044}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAnd even with all that, we could lose life support any
+    minute now.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1206184430874324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4125756093673772}
+  - component: {fileID: 114323105547536790}
+  - component: {fileID: 114766738155733420}
+  - component: {fileID: 114112433015199278}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CBusy. Busy, busy, busy. Oh, god.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1210707923717670
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4574326341154382}
+  - component: {fileID: 114858425369187786}
+  - component: {fileID: 114318914428389070}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAlmost every system is down, and the remaining ones have
+    been rerouted to keep life support online.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1225585897684472
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4238384398580362}
+  - component: {fileID: 114947174834466672}
+  - component: {fileID: 114667048985188748}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CIf not, I should get back to get back to work. We need
+    to salvage as many supplies as possible before the evacuation.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1248507644101742
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4703290517665728}
+  - component: {fileID: 114358048098507090}
+  - component: {fileID: 114531305230616274}
+  - component: {fileID: 114034165525527652}
+  m_Layer: 0
+  m_Name: PC:Positive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1295750698327474
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4513785425222564}
+  - component: {fileID: 114141857855432966}
+  - component: {fileID: 114162518496458096}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAlmost every system is down, and the remaining ones have
+    been rerouted to keep life support online.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1314578651202374
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4994028579398024}
+  - component: {fileID: 114550976291249616}
+  - component: {fileID: 114547818781357942}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CI need to get these supplies packed up in time for the
+    evacuation.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1319358792900482
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4516347673891980}
+  - component: {fileID: 114614795493865878}
+  - component: {fileID: 114400844208137504}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAlmost every system is down, and the remaining ones have
+    been rerouted to keep life support online.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1383791693267434
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4643529356283362}
+  - component: {fileID: 114256608103921364}
+  - component: {fileID: 114540763780336078}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CYou\u2019re not the only one. Can it wait until we\u2019re
+    off this scrap heap?\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1384896199734578
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4673720398205732}
+  - component: {fileID: 114977592389331380}
+  - component: {fileID: 114039814735082342}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAlmost every system is down, and the remaining ones have
+    been rerouted to keep life support online.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1389773354176210
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4546327705447044}
+  - component: {fileID: 114420305405728436}
+  - component: {fileID: 114984922562286190}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAnd even with all that, we could lose life support any
+    minute now.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1428810665723496
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4358273598804078}
+  - component: {fileID: 114825544475812202}
+  - component: {fileID: 114274190724467856}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201COkay, well, If you\u2019re not in distress, I need to get
+    back to this.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1540038452763906
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4364536931903212}
+  - component: {fileID: 114966752996569264}
+  - component: {fileID: 114989128455102594}
+  - component: {fileID: 114447945753218410}
+  m_Layer: 0
+  m_Name: PC:Negative
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1545346012633532
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4854584322625654}
+  - component: {fileID: 114504848823440238}
+  - component: {fileID: 114809458654443814}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201COkay. Good. Small blessings.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1547021195406130
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4684589419388640}
+  - component: {fileID: 114343857164748896}
+  - component: {fileID: 114958555802753718}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201COkay, well, I don\u2019t really have time to chat right
+    now.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1560434036940144
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4314908987193418}
+  - component: {fileID: 114541277425356208}
+  - component: {fileID: 114293515843456648}
+  - component: {fileID: 114233366876282774}
+  m_Layer: 0
+  m_Name: PC:Negative
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1581425011605776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4842738882076614}
+  - component: {fileID: 114823148618648498}
+  - component: {fileID: 114992658807451458}
+  - component: {fileID: 114945536248027584}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CStay safe out there.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1610880157760348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4216886607852644}
+  - component: {fileID: 114678282192177042}
+  - component: {fileID: 114029656463036240}
+  - component: {fileID: 114538194399110494}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201COkay, that\u2019s all the rations packed up. Should leave
+    enough room for the repair kits, but we need to lose at least two tons somewhere\u2026\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1627163631643374
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4224221494409172}
+  - component: {fileID: 114296882685276912}
+  - component: {fileID: 114961374606776606}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAnd even with all that, we could lose life support any
+    minute now.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1728136798110522
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4381048644109168}
+  - component: {fileID: 114784726830512100}
+  - component: {fileID: 114346990228588162}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAlmost every system is down, and the remaining ones have
+    been rerouted to keep life support online.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1744675022634480
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4484947432770120}
+  - component: {fileID: 114978554430278982}
+  - component: {fileID: 114431186440054706}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAnd even with all that, we could lose life support any
+    minute now.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1746049623562156
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4758895416424564}
+  - component: {fileID: 114847766517599188}
+  - component: {fileID: 114235827781264618}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAnd even with all that, we could lose life support any
+    minute now.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1750507028862160
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4512945232743636}
+  - component: {fileID: 114326886067168526}
+  - component: {fileID: 114250718894031136}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201COkay. Good. One less thing to worry about.\u201D "
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1796413300471498
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4104544215277980}
+  - component: {fileID: 114635370731880808}
+  - component: {fileID: 114710332275411314}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAlmost every system is down, and the remaining ones have
+    been rerouted to keep life support online.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1802472694693130
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4405103448918032}
+  - component: {fileID: 114456913770356404}
+  - component: {fileID: 114149541224279260}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201COkay. Okay. Can we talk later, then?\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1802573501771170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4001216161480912}
+  - component: {fileID: 114645109765931498}
+  - component: {fileID: 114346047718995604}
+  - component: {fileID: 114410846590348028}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201COh, god. Whatever it is, can it wait?\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1847443210735948
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4203849981648630}
+  - component: {fileID: 114908795954571352}
+  - component: {fileID: 114413605930962650}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAnd even with all that, we could lose life support any
+    minute now.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1906526133619036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4888267798831708}
+  - component: {fileID: 114338171060186566}
+  - component: {fileID: 114853270675938660}
+  - component: {fileID: 114001118171460044}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201COh, you\u2019re here. Do you need me?\u201D "
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1910125243828630
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4188230203014534}
+  - component: {fileID: 114301132677502510}
+  - component: {fileID: 114734967518707604}
+  - component: {fileID: 114253810263369470}
+  m_Layer: 0
+  m_Name: PC:Negative
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1927473269024026
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4906516640875616}
+  - component: {fileID: 114590243679329256}
+  - component: {fileID: 114284171681505916}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CWell. One more thing to worry about, I guess.\u201D "
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1927580909127288
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4023927835658662}
+  - component: {fileID: 114521896839783298}
+  - component: {fileID: 114135857185871722}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CI don\u2019t know why you\u2019re so positive now of all
+    times, but I\u2019m not gonna complain.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1935603800112048
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4588750077213996}
+  - component: {fileID: 114147398707132078}
+  - component: {fileID: 114395421200397146}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAlmost every system is down, and the remaining ones have
+    been rerouted to keep life support online.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1953515125669092
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4825868696755920}
+  - component: {fileID: 114564891793429894}
+  - component: {fileID: 114539080370304662}
+  - component: {fileID: 114070574533231250}
+  m_Layer: 0
+  m_Name: PC:Neutral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1955041493756696
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4094175754108676}
+  - component: {fileID: 114754743877908386}
+  - component: {fileID: 114794922865430378}
+  m_Layer: 0
+  m_Name: "Mechanic: \u201CAnd even with all that, we could lose life support any
+    minute now.\u201D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1996056076789758
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4755421140645136}
+  - component: {fileID: 114277627350000104}
+  - component: {fileID: 114676172973363676}
+  - component: {fileID: 114493248954309698}
+  m_Layer: 0
+  m_Name: PC:Neutral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1998216171003756
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4301495643780278}
+  - component: {fileID: 114941309601627032}
+  - component: {fileID: 114485854546306374}
+  - component: {fileID: 114445930173624296}
+  m_Layer: 0
+  m_Name: PC:Positive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4001216161480912
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802573501771170}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4994028579398024}
+  m_Father: {fileID: 4763814313845454}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4023927835658662
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1927580909127288}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4221876204604762}
+  m_Father: {fileID: 4606006107727994}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4094175754108676
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1955041493756696}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4516347673891980}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4104544215277980
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1796413300471498}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4169872892935710}
+  m_Father: {fileID: 4405103448918032}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4125756093673772
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1206184430874324}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4763814313845454}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4169872892935710
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1168733123090340}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4104544215277980}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4171270665854360
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069259251082960}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4763814313845454}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4188230203014534
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1910125243828630}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4643529356283362}
+  m_Father: {fileID: 4786415094875810}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4203849981648630
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1847443210735948}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4588750077213996}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4216886607852644
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1610880157760348}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4786415094875810}
+  m_Father: {fileID: 4763814313845454}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4221876204604762
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1104161315673374}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4224221494409172}
+  m_Father: {fileID: 4023927835658662}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4224221494409172
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1627163631643374}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4221876204604762}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4228142969222736
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142377955406306}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4381048644109168}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4238384398580362
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1225585897684472}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4301495643780278}
+  - {fileID: 4314908987193418}
+  - {fileID: 4755421140645136}
+  m_Father: {fileID: 4888267798831708}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4301495643780278
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1998216171003756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4512945232743636}
+  m_Father: {fileID: 4238384398580362}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4314908987193418
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560434036940144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4906516640875616}
+  m_Father: {fileID: 4238384398580362}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4358273598804078
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1428810665723496}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4513785425222564}
+  m_Father: {fileID: 4778070562712406}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4364536931903212
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1540038452763906}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4572896931204248}
+  m_Father: {fileID: 4994028579398024}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4366168721563260
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1062414487687248}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4484947432770120}
+  m_Father: {fileID: 4906516640875616}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4381048644109168
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1728136798110522}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4228142969222736}
+  m_Father: {fileID: 4572896931204248}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4405103448918032
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802472694693130}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4104544215277980}
+  m_Father: {fileID: 4825868696755920}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4484947432770120
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1744675022634480}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4366168721563260}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4512945232743636
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1750507028862160}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4588750077213996}
+  m_Father: {fileID: 4301495643780278}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4513785425222564
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1295750698327474}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4546327705447044}
+  m_Father: {fileID: 4358273598804078}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4516347673891980
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1319358792900482}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4094175754108676}
+  m_Father: {fileID: 4684589419388640}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4546327705447044
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1389773354176210}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4513785425222564}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4572896931204248
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158057526006318}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4381048644109168}
+  m_Father: {fileID: 4364536931903212}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4574326341154382
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1210707923717670}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4758895416424564}
+  m_Father: {fileID: 4854584322625654}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4588750077213996
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1935603800112048}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4203849981648630}
+  m_Father: {fileID: 4512945232743636}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4606006107727994
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1083859498650370}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4023927835658662}
+  m_Father: {fileID: 4994028579398024}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4643529356283362
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1383791693267434}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4673720398205732}
+  m_Father: {fileID: 4188230203014534}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4673720398205732
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1384896199734578}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4828804366947550}
+  m_Father: {fileID: 4643529356283362}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4684589419388640
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1547021195406130}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4516347673891980}
+  m_Father: {fileID: 4755421140645136}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4703290517665728
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248507644101742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4854584322625654}
+  m_Father: {fileID: 4786415094875810}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4755421140645136
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1996056076789758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4684589419388640}
+  m_Father: {fileID: 4238384398580362}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4758895416424564
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1746049623562156}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4574326341154382}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4763814313845454
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1182018519571270}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4216886607852644}
+  - {fileID: 4001216161480912}
+  - {fileID: 4888267798831708}
+  - {fileID: 4842738882076614}
+  - {fileID: 4171270665854360}
+  - {fileID: 4125756093673772}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4778070562712406
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028237942701018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4358273598804078}
+  m_Father: {fileID: 4994028579398024}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4786415094875810
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1124744614791424}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4703290517665728}
+  - {fileID: 4188230203014534}
+  - {fileID: 4825868696755920}
+  m_Father: {fileID: 4216886607852644}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4825868696755920
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1953515125669092}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4405103448918032}
+  m_Father: {fileID: 4786415094875810}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4828804366947550
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197721194580678}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4673720398205732}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4842738882076614
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581425011605776}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4763814313845454}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4854584322625654
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1545346012633532}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4574326341154382}
+  m_Father: {fileID: 4703290517665728}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4888267798831708
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1906526133619036}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4238384398580362}
+  m_Father: {fileID: 4763814313845454}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4906516640875616
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1927473269024026}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4366168721563260}
+  m_Father: {fileID: 4314908987193418}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4994028579398024
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1314578651202374}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4606006107727994}
+  - {fileID: 4364536931903212}
+  - {fileID: 4778070562712406}
+  m_Father: {fileID: 4001216161480912}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114001118171460044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1906526133619036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: 
+--- !u!114 &114029656463036240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1610880157760348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114034165525527652
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248507644101742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 1
+--- !u!114 &114039814735082342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1384896199734578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114056862584271540
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1062414487687248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114057434757154920
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197721194580678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAnd even with all that, we could lose life support any minute
+    now.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114070472476307288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1083859498650370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114070574533231250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1953515125669092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 3
+--- !u!114 &114098523135804530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158057526006318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114107711518916898
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028237942701018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 3
+--- !u!114 &114112433015199278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1206184430874324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 3
+--- !u!114 &114124895530000342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1182018519571270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db2d07d97edf4b68836d88e7f967cb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completedResponses: []
+  currentNpcDialog: {fileID: 0}
+  npc: {fileID: 0}
+  npcText: {fileID: 0}
+  playerResponseTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  plotFilters: []
+  started: 0
+  completed: 0
+  canStartNextLine: 1
+--- !u!114 &114135857185871722
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1927580909127288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114141857855432966
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1295750698327474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAlmost every system is down, and the remaining ones have been
+    rerouted to keep life support online.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114147398707132078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1935603800112048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAlmost every system is down, and the remaining ones have been
+    rerouted to keep life support online.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114149541224279260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802472694693130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114162518496458096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1295750698327474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114163172810170536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1104161315673374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAlmost every system is down, and the remaining ones have been
+    rerouted to keep life support online.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114196295504040322
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1083859498650370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 1
+--- !u!114 &114198004314319864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1083859498650370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Positive
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114233366876282774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560434036940144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 2
+--- !u!114 &114235827781264618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1746049623562156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114243729908101382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069259251082960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114250718894031136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1750507028862160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114253810263369470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1910125243828630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 2
+--- !u!114 &114256608103921364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1383791693267434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CYou\u2019re not the only one. Can it wait until we\u2019re off
+    this scrap heap?\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114274190724467856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1428810665723496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114277627350000104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1996056076789758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Neutral
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114284171681505916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1927473269024026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114293515843456648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560434036940144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114296882685276912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1627163631643374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAnd even with all that, we could lose life support any minute
+    now.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114301132677502510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1910125243828630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Negative
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114311785394469442
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1124744614791424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201COh, god. Are you okay? Are you hurt?\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114318914428389070
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1210707923717670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114323105547536790
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1206184430874324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CBusy. Busy, busy, busy. Oh, god.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114326886067168526
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1750507028862160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201COkay. Good. One less thing to worry about.\u201D "
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114329025870553044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197721194580678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114338171060186566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1906526133619036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201COh, you\u2019re here. Do you need me?\u201D "
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114343857164748896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1547021195406130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201COkay, well, I don\u2019t really have time to chat right now.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114346047718995604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802573501771170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114346990228588162
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1728136798110522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114358048098507090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248507644101742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Positive
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114377155265676388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1168733123090340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAnd even with all that, we could lose life support any minute
+    now.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114395421200397146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1935603800112048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114400844208137504
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1319358792900482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114410846590348028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802573501771170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: 2
+--- !u!114 &114413605930962650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1847443210735948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114420305405728436
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1389773354176210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAnd even with all that, we could lose life support any minute
+    now.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114431186440054706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1744675022634480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114445930173624296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1998216171003756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 1
+--- !u!114 &114447945753218410
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1540038452763906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 2
+--- !u!114 &114456913770356404
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802472694693130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201COkay. Okay. Can we talk later, then?\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114485854546306374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1998216171003756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114493248954309698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1996056076789758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48538c378bf8b4038ab71086eb35002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  newValue: 3
+--- !u!114 &114504848823440238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1545346012633532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201COkay. Good. Small blessings.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114521896839783298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1927580909127288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CI don\u2019t know why you\u2019re so positive now of all times,
+    but I\u2019m not gonna complain.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114531305230616274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1248507644101742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114538194399110494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1610880157760348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: 1
+--- !u!114 &114539080370304662
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1953515125669092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114540763780336078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1383791693267434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114541277425356208
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560434036940144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Negative
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114547818781357942
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1314578651202374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114550976291249616
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1314578651202374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CI need to get these supplies packed up in time for the evacuation.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114564891793429894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1953515125669092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Neutral
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114590243679329256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1927473269024026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CWell. One more thing to worry about, I guess.\u201D "
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114614795493865878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1319358792900482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAlmost every system is down, and the remaining ones have been
+    rerouted to keep life support online.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114635370731880808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1796413300471498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAlmost every system is down, and the remaining ones have been
+    rerouted to keep life support online.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114645109765931498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1802573501771170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201COh, god. Whatever it is, can it wait?\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114667048985188748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1225585897684472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114676172973363676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1996056076789758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114678282192177042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1610880157760348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201COkay, that\u2019s all the rations packed up. Should leave enough
+    room for the repair kits, but we need to lose at least two tons somewhere\u2026\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114710332275411314
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1796413300471498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114734967518707604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1910125243828630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114754743877908386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1955041493756696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAnd even with all that, we could lose life support any minute
+    now.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114766738155733420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1206184430874324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114773823959817890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142377955406306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAnd even with all that, we could lose life support any minute
+    now.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114775475430931604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028237942701018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114784726830512100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1728136798110522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAlmost every system is down, and the remaining ones have been
+    rerouted to keep life support online.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114794922865430378
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1955041493756696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114809458654443814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1545346012633532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114823148618648498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581425011605776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CStay safe out there.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 1
+--- !u!114 &114825544475812202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1428810665723496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201COkay, well, If you\u2019re not in distress, I need to get back
+    to this.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114847766517599188
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1746049623562156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAnd even with all that, we could lose life support any minute
+    now.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114853270675938660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1906526133619036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114858425369187786
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1210707923717670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAlmost every system is down, and the remaining ones have been
+    rerouted to keep life support online.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114867044331408638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1104161315673374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114867146720365556
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069259251082960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CIf you yell at me again, I might cry. I\u2019m not kidding.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 1
+--- !u!114 &114869766152613056
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1142377955406306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114889955323377194
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1062414487687248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAlmost every system is down, and the remaining ones have been
+    rerouted to keep life support online.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114905579713424386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069259251082960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: 2
+--- !u!114 &114908795954571352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1847443210735948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAnd even with all that, we could lose life support any minute
+    now.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114927512014464970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1124744614791424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114929953382589972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158057526006318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CI\u2019m doing my best, all right?\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114930235360279602
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1168733123090340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114941309601627032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1998216171003756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Positive
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114945536248027584
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581425011605776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValue: 1
+--- !u!114 &114947174834466672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1225585897684472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CIf not, I should get back to get back to work. We need to salvage
+    as many supplies as possible before the evacuation.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114950850578510488
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028237942701018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Neutral
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114958555802753718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1547021195406130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114961374606776606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1627163631643374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114966752996569264
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1540038452763906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148cc504807b74295b0fd8e7b660e449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogOne: Negative
+  npcResponses: []
+  keycode: 95
+--- !u!114 &114977592389331380
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1384896199734578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAlmost every system is down, and the remaining ones have been
+    rerouted to keep life support online.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114978554430278982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1744675022634480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461c2395afe244e17b13b54d607a74c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcResponse: "\u201CAnd even with all that, we could lose life support any minute
+    now.\u201D"
+  playerResponses: []
+  npcContinuations: []
+  plotFilter: {fileID: 0}
+  triggerWhenComplete: 0
+--- !u!114 &114984922562286190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1389773354176210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114989128455102594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1540038452763906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114992658807451458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581425011605776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2614512f7f35b47a480d332c220b48af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
