@@ -109,6 +109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4878234993775624}
   - component: {fileID: 114145616290873064}
+  - component: {fileID: 114086002910834436}
   m_Layer: 0
   m_Name: 2-6CommandDeck
   m_TagString: Untagged
@@ -709,6 +710,19 @@ MonoBehaviour:
   dialogOne: positive
   npcResponses: []
   keycode: 95
+--- !u!114 &114086002910834436
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192984168435092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957bb29fdad124ce198b6640437a07fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  expectedValues: 02000000
 --- !u!114 &114116904657428218
 MonoBehaviour:
   m_ObjectHideFlags: 1

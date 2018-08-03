@@ -11,6 +11,22 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1663314962495140}
   m_IsPrefabAsset: 1
+--- !u!1 &1156628239482054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4677572176199994}
+  - component: {fileID: 114152375385911310}
+  m_Layer: 0
+  m_Name: current_act
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1295468104576988
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,6 +107,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1602268519408414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224417558422979452}
+  m_Layer: 0
+  m_Name: NPCStartingLocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1631373684330484
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,6 +147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4775041322280960}
   - component: {fileID: 114864546009339908}
+  - component: {fileID: 114058389355898474}
   m_Layer: 0
   m_Name: PlotManager
   m_TagString: Untagged
@@ -262,6 +294,19 @@ Transform:
   m_Father: {fileID: 4775041322280960}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4677572176199994
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1156628239482054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4775041322280960}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4775041322280960
 Transform:
   m_ObjectHideFlags: 1
@@ -281,6 +326,8 @@ Transform:
   - {fileID: 4345475896057762}
   - {fileID: 4066616462646730}
   - {fileID: 4779418003271160}
+  - {fileID: 4677572176199994}
+  - {fileID: 224417558422979452}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -324,6 +371,26 @@ MonoBehaviour:
   plotName: commander_1
   startingValue: 0
   plotValue: 
+--- !u!114 &114058389355898474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1663314962495140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 227564bb21a364120a31d7f04a17a883, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentAct: {fileID: 114152375385911310}
+  npcStartingLocation: {fileID: 224417558422979452}
+  npcs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &114112558765798242
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -337,6 +404,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plotName: tacticalofficer_1
   startingValue: 0
+  plotValue: 
+--- !u!114 &114152375385911310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1156628239482054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b1aa36ea8885425bb7eca3914c9f993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plotName: current_act
+  startingValue: 1
   plotValue: 
 --- !u!114 &114302926153981680
 MonoBehaviour:
@@ -433,6 +514,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b673eadbe6ce64660bc74f9a4fd55e98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  actOnePlots:
+  - {fileID: 114540988984781540}
+  - {fileID: 114302926153981680}
+  - {fileID: 114396420827395698}
+  actTwoPlots:
+  - {fileID: 114584513271604626}
+  - {fileID: 114915359232146896}
+  - {fileID: 114037231895498506}
+  actThreePlots:
+  - {fileID: 114112558765798242}
+  - {fileID: 114847606425345416}
+  - {fileID: 114684097864918978}
+  currentAct: {fileID: 114152375385911310}
+  SpawnManager: {fileID: 114058389355898474}
 --- !u!114 &114915359232146896
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -447,3 +542,21 @@ MonoBehaviour:
   plotName: mechanic_2
   startingValue: 0
   plotValue: 
+--- !u!224 &224417558422979452
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602268519408414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4775041322280960}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -58.03, y: 10.66}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}

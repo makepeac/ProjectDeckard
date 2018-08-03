@@ -11,6 +11,9 @@ public class NPC : MonoBehaviour
     [SerializeField]
     List<Conversation> availableConversations;
 
+    [SerializeField]
+    List<GameObject> spawnPoints;
+
     /// <summary>
     /// Awake is called when the script instance is being loaded.
     /// </summary>
@@ -29,6 +32,18 @@ public class NPC : MonoBehaviour
     public string getName()
     {
         return this.characterName;
+    }
+
+    public Transform getCurrentSpawnPoint()
+    {
+        foreach (GameObject spawn in spawnPoints)
+        {
+            if (spawn.GetComponent<PlotFilter>().isActive())
+            {
+                return spawn.gameObject.transform;
+            }
+        }
+        return null;
     }
 
     /// <summary>
