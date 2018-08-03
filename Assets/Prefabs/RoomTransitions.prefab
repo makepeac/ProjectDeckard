@@ -176,6 +176,7 @@ GameObject:
   - component: {fileID: 4273782848619244}
   - component: {fileID: 61197073654975252}
   - component: {fileID: 50094856733494482}
+  - component: {fileID: 114735690881476552}
   m_Layer: 0
   m_Name: ToPodFromWorkshop
   m_TagString: Untagged
@@ -1011,6 +1012,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 4059272819634840}
+  confiner: {fileID: 0}
+  commandDeckPolygon: {fileID: 0}
+--- !u!114 &114735690881476552
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1598771985583520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d3accd80f934b08be21c4ae11864c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {fileID: 4380494221864802}
   confiner: {fileID: 0}
   commandDeckPolygon: {fileID: 0}
 --- !u!114 &114754524653282106
