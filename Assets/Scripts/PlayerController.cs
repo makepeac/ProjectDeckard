@@ -46,7 +46,6 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void changeState(int state){
-		Debug.Log(state);
 		if (_currentAnimationState == state){
 		return;}
 
