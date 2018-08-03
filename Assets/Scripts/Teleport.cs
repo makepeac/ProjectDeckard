@@ -7,6 +7,12 @@ public class Teleport : MonoBehaviour
     [SerializeField]
     Transform destination = null;
 
+    [SerializeField]
+    Cinemachine.CinemachineConfiner confiner = null;
+
+    [SerializeField]
+    PolygonCollider2D commandDeckPolygon;
+
     /// <summary>
     /// Sent when another object enters a trigger collider attached to this
     /// object (2D physics only).
@@ -17,6 +23,7 @@ public class Teleport : MonoBehaviour
         if (other.gameObject.name == "Player")
         {
             other.gameObject.transform.position = new Vector3(destination.position.x, destination.position.y);
+            confiner.m_BoundingShape2D = commandDeckPolygon;
         }
     }
 }
