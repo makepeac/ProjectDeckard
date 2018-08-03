@@ -17,7 +17,6 @@ public class SpawnManager : MonoBehaviour
             Transform spawnPoint = npc.getCurrentSpawnPoint();
             if (spawnPoint)
             {
-                Debug.Log(spawnPoint.position);
                 npc.transform.position = new Vector3(spawnPoint.position.x, spawnPoint.position.y);
             }
             else
