@@ -164,26 +164,26 @@ public class Conversation : MonoBehaviour
 
     private void updatePlayerResponses()
     {
-        List<PlayerDialog> playerResponses = this.currentNpcDialog.getPlayerResponses();
+        /*List<PlayerDialog> playerResponses = this.currentNpcDialog.getPlayerResponses();
         for (int i = 0; i < playerResponses.Count; i += 1)
         {
             this.playerResponseTexts[i].text = playerResponses[i].dialogOne + playerResponses[i].getKeyCode().ToString();
-        }
+        }*/
     }
 
     private void hidePlayerResponses()
     {
-        for (int i = 0; i < playerResponseTexts.Count; i += 1)
+       /* for (int i = 0; i < playerResponseTexts.Count; i += 1)
         {
             this.playerResponseTexts[i].text = string.Empty;
-        }
+        }*/
     }
 
     private void hidePlayerResponseText()
     {
-        foreach (Text text in this.playerResponseTexts)
+        /*foreach (Text text in this.playerResponseTexts)
         {
             text.text = string.Empty;
-        }
+        }*/
     }
 }
