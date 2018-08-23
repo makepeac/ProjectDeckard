@@ -369,7 +369,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1496823147931444}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.753, y: 2.91, z: 0}
+  m_LocalPosition: {x: -1.753, y: 1.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4152337465417008}
@@ -999,7 +999,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 4280198636155648}
   confiner: {fileID: 0}
-  commandDeckPolygon: {fileID: 0}
+  destinationBoundsPolygon: {fileID: 0}
+  hasButtonTrigger: 1
 --- !u!114 &114640576176997670
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1013,7 +1014,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 4059272819634840}
   confiner: {fileID: 0}
-  commandDeckPolygon: {fileID: 0}
+  destinationBoundsPolygon: {fileID: 0}
+  hasButtonTrigger: 0
 --- !u!114 &114735690881476552
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1027,7 +1029,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 4380494221864802}
   confiner: {fileID: 0}
-  commandDeckPolygon: {fileID: 0}
+  destinationBoundsPolygon: {fileID: 0}
+  hasButtonTrigger: 0
 --- !u!114 &114754524653282106
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1041,7 +1044,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 4562618279619164}
   confiner: {fileID: 0}
-  commandDeckPolygon: {fileID: 0}
+  destinationBoundsPolygon: {fileID: 0}
+  hasButtonTrigger: 0
 --- !u!114 &114808932592670038
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1055,7 +1059,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 4058249719155146}
   confiner: {fileID: 0}
-  commandDeckPolygon: {fileID: 0}
+  destinationBoundsPolygon: {fileID: 0}
+  hasButtonTrigger: 0
 --- !u!114 &114946052739556432
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1069,4 +1074,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {fileID: 4788883461887642}
   confiner: {fileID: 0}
-  commandDeckPolygon: {fileID: 0}
+  destinationBoundsPolygon: {fileID: 0}
+  hasButtonTrigger: 0
