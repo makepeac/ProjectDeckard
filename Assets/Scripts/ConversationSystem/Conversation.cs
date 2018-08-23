@@ -15,7 +15,7 @@ public class Conversation : MonoBehaviour
     Text npcText;
 
     [SerializeField]
-    List<Text> playerResponseTexts = null;
+    List<GameObject> playerResponseIcons = null;
 
     [SerializeField]
     List<PlotFilter> plotFilters = new List<PlotFilter>();
@@ -50,11 +50,18 @@ public class Conversation : MonoBehaviour
             this.completed = true;
         }
         this.plotFilters = new List<PlotFilter>(this.GetComponents<PlotFilter>());
+        this.hidePlayerResponses();
     }
 
     // Update is called once per frame
     private void Update()
     {
+        if(this.completed){
+            this.hidePlayerResponses();
+            if(npcText.text != string.Empty){
+                Invoke("hideNpcResponse", 3);
+            }
+        }
         if (this.started && !this.completed)
         {
             this.currentNpcDialog.fixedUpdate();
@@ -66,27 +73,28 @@ public class Conversation : MonoBehaviour
                 this.completed = !this.currentNpcDialog.HasPossibleResponses();
                 this.canStartNextLine = false;
             }
-            if (!continuation && !this.currentNpcDialog.getPlayerResponse() && this.canStartNextLine)
+            else if (!continuation && !this.currentNpcDialog.getPlayerResponse() && this.canStartNextLine)
             {
                 this.updatePlayerResponses();
             }
-            if (this.currentNpcDialog.getPlayerResponse() && this.canStartNextLine)
+            else if (this.currentNpcDialog.getPlayerResponse() && this.canStartNextLine)
             {
-                this.hidePlayerResponseText();
+                this.hidePlayerResponses();
                 PlayerDialog playerDialog = this.currentNpcDialog.getPlayerResponse();
                 this.currentNpcDialog = playerDialog.getNpcResponse();
                 if (this.currentNpcDialog)
                 {
                     this.npcText.text = this.currentNpcDialog.npcResponse;
-                    Invoke("updatePlayerResponses", 3);
                     this.completed = !this.currentNpcDialog.HasPossibleResponses();
 
                 }
                 else
                 {
-                    this.hideNpcResponse();
-                    this.hidePlayerResponseText();
                     this.completed = true;
+                }
+                if(this.completed){
+                    Invoke("hideNpcResponse", 3);
+                    this.hidePlayerResponses();
                 }
             }
         }
@@ -113,7 +121,7 @@ public class Conversation : MonoBehaviour
     {
         this.hidePlayerResponses();
         this.started = true;
-        this.npcText.transform.position = new Vector3(this.npc.transform.position.x, this.npc.transform.position.y + 0.5f, this.npcText.transform.position.z);
+        this.npcText.transform.position = new Vector3(this.npc.transform.position.x, this.npc.transform.position.y + 1.5f, this.npcText.transform.position.z);
         if (this.completed)
         {
             this.npcText.text = this.getCompletedResponse();
@@ -164,6 +172,10 @@ public class Conversation : MonoBehaviour
 
     private void updatePlayerResponses()
     {
+        for (int i = 0; i < playerResponseIcons.Count; i += 1)
+        {
+            this.playerResponseIcons[i].SetActive(true);
+        }
         /*List<PlayerDialog> playerResponses = this.currentNpcDialog.getPlayerResponses();
         for (int i = 0; i < playerResponses.Count; i += 1)
         {
@@ -173,6 +185,10 @@ public class Conversation : MonoBehaviour
 
     private void hidePlayerResponses()
     {
+        for (int i = 0; i < playerResponseIcons.Count; i += 1)
+        {
+            this.playerResponseIcons[i].SetActive(false);
+        }
        /* for (int i = 0; i < playerResponseTexts.Count; i += 1)
         {
             this.playerResponseTexts[i].text = string.Empty;

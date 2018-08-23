@@ -7,6 +7,9 @@ public class Player : MonoBehaviour
     [SerializeField]
     Plot playerMoved;
 
+    [SerializeField]
+    GameObject playerSprite;
+
     [Header("Movement")]
     [HideInInspector] public bool facingRight = true;
     [HideInInspector] public bool jump = false;
@@ -70,9 +73,9 @@ public class Player : MonoBehaviour
     void Flip()
     {
         facingRight = !facingRight;
-        Vector3 theScale = transform.localScale;
+        Vector3 theScale = playerSprite.transform.localScale;
         theScale.x *= -1;
-        transform.localScale = theScale;
+        playerSprite.transform.localScale = theScale;
     }
 
 }
