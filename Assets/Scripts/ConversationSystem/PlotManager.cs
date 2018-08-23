@@ -17,6 +17,9 @@ public class PlotManager : MonoBehaviour
     Plot currentAct;
 
     [SerializeField]
+    Plot playerMoved;
+
+    [SerializeField]
     SpawnManager SpawnManager;
 
     public static PlotManager instance = null;
@@ -76,6 +79,17 @@ public class PlotManager : MonoBehaviour
             currentAct.setPlotValue("1");
         }
         SpawnManager.UpdateNpcs();
+    } 
+
+    public static bool actIsComplete(int act){
+        if(act == 1){
+            return PlotManager.actIsDone(instance.actOnePlots);
+        } else if (act == 2){
+            return PlotManager.actIsDone(instance.actTwoPlots);
+        } else if(act == 3){
+            return PlotManager.actIsDone(instance.actThreePlots);
+        }
+        return false;
     }
 
     public static bool actIsDone(List<Plot> actPlots)
@@ -83,7 +97,7 @@ public class PlotManager : MonoBehaviour
         bool actIsDone = false;
         foreach (Plot plot in actPlots)
         {
-            if (int.Parse(plot.getPlotValue()) > 0)
+            if (plot.valueIsNotZero())
             {
                 actIsDone = true;
             }

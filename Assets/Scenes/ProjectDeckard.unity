@@ -1123,6 +1123,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4596182078168576, guid: 2bfaa8f26e37b9445b1327d87ecc639b,
     type: 2}
   m_PrefabInternal: {fileID: 710145942}
+--- !u!114 &716499545 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114602179911747238, guid: 0cccfe023b0d544cba18d9ba458ca471,
+    type: 2}
+  m_PrefabInternal: {fileID: 2086477155}
+  m_Script: {fileID: 11500000, guid: 0b1aa36ea8885425bb7eca3914c9f993, type: 3}
 --- !u!114 &734063502 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114302926153981680, guid: 0cccfe023b0d544cba18d9ba458ca471,
@@ -1417,11 +1423,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4686219317546528, guid: 5907f06d0328e48719bda050014fe831, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -4.8
       objectReference: {fileID: 0}
     - target: {fileID: 4686219317546528, guid: 5907f06d0328e48719bda050014fe831, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.021220207
+      value: -0.49877977
       objectReference: {fileID: 0}
     - target: {fileID: 4686219317546528, guid: 5907f06d0328e48719bda050014fe831, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1654,11 +1660,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4184456906915564, guid: 011364b3dd0114c84b1edae34aa86891, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -4.8
       objectReference: {fileID: 0}
     - target: {fileID: 4184456906915564, guid: 011364b3dd0114c84b1edae34aa86891, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.52
       objectReference: {fileID: 0}
     - target: {fileID: 4184456906915564, guid: 011364b3dd0114c84b1edae34aa86891, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1684,6 +1690,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114298333896904578, guid: 011364b3dd0114c84b1edae34aa86891,
+        type: 2}
+      propertyPath: playerMoved
+      value: 
+      objectReference: {fileID: 716499545}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 011364b3dd0114c84b1edae34aa86891, type: 2}
   m_IsPrefabAsset: 0
@@ -2336,6 +2347,31 @@ Prefab:
       propertyPath: availableConversations.Array.data[2]
       value: 
       objectReference: {fileID: 414165654}
+    - target: {fileID: 114482144850074898, guid: 8c3536181c8584af0b5fd9570d72fe37,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.1254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 114482144850074898, guid: 8c3536181c8584af0b5fd9570d72fe37,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.1254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 114482144850074898, guid: 8c3536181c8584af0b5fd9570d72fe37,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.1254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 114482144850074898, guid: 8c3536181c8584af0b5fd9570d72fe37,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 222656204249980522, guid: 8c3536181c8584af0b5fd9570d72fe37,
+        type: 2}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c3536181c8584af0b5fd9570d72fe37, type: 2}
   m_IsPrefabAsset: 0

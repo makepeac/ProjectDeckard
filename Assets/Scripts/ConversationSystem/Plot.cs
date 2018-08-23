@@ -30,4 +30,12 @@ public class Plot : MonoBehaviour
     {
         this.plotValue = newValue;
     }
+
+    public bool equalToPlotValue(int expectedValue){
+        return int.Parse(this.plotValue) == expectedValue;
+    }
+
+    public bool valueIsNotZero() {
+        return int.Parse(this.plotValue) > 0;
+    }
 }

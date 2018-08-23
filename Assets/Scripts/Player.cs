@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField]
+    Plot playerMoved;
+
     [Header("Movement")]
     [HideInInspector] public bool facingRight = true;
     [HideInInspector] public bool jump = false;
@@ -36,7 +39,10 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         float h = Input.GetAxis("Horizontal");
-     
+
+        if(Mathf.Abs(h) > 0 && !playerMoved.valueIsNotZero()){
+            playerMoved.setPlotValue("1");
+        }
         // anim.SetFloat("Speed", Mathf.Abs(h));
 
         if (h * rb2d.velocity.x < maxSpeed)

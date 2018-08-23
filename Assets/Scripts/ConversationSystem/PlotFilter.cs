@@ -14,7 +14,7 @@ public class PlotFilter : MonoBehaviour
     {
         foreach (int value in this.expectedValues)
         {
-            if (int.Parse(this.plot.getPlotValue()) == value)
+            if (this.plot.equalToPlotValue(value))
             {
                 return true;
             }
