@@ -43,6 +43,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1373419072581188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4361378673141814}
+  - component: {fileID: 114728085272392452}
+  m_Layer: 0
+  m_Name: return_to_pod_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1396381738386420
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,6 +187,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1723009268075964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4628035556275264}
+  - component: {fileID: 114290699185834488}
+  m_Layer: 0
+  m_Name: return_to_pod_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1741503913668954
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,6 +214,22 @@ GameObject:
   - component: {fileID: 114112558765798242}
   m_Layer: 0
   m_Name: tacticalofficer_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1833888248995968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4198025394758884}
+  - component: {fileID: 114838401898107744}
+  m_Layer: 0
+  m_Name: return_to_pod_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -229,6 +277,19 @@ Transform:
   m_Father: {fileID: 4775041322280960}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4198025394758884
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1833888248995968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4775041322280960}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4255471856746084
 Transform:
   m_ObjectHideFlags: 1
@@ -254,6 +315,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4775041322280960}
   m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4361378673141814
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1373419072581188}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4775041322280960}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4456125425107098
 Transform:
@@ -294,6 +368,19 @@ Transform:
   m_Father: {fileID: 4775041322280960}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4628035556275264
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1723009268075964}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4775041322280960}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4677572176199994
 Transform:
   m_ObjectHideFlags: 1
@@ -328,6 +415,9 @@ Transform:
   - {fileID: 4779418003271160}
   - {fileID: 4677572176199994}
   - {fileID: 224417558422979452}
+  - {fileID: 4198025394758884}
+  - {fileID: 4628035556275264}
+  - {fileID: 4361378673141814}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -382,7 +472,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 227564bb21a364120a31d7f04a17a883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentAct: {fileID: 114152375385911310}
   npcStartingLocation: {fileID: 224417558422979452}
   npcs:
   - {fileID: 0}
@@ -419,6 +508,20 @@ MonoBehaviour:
   plotName: current_act
   startingValue: 1
   plotValue: 
+--- !u!114 &114290699185834488
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1723009268075964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b1aa36ea8885425bb7eca3914c9f993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plotName: return_to_pod_2
+  startingValue: 0
+  plotValue: 0
 --- !u!114 &114302926153981680
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -489,6 +592,34 @@ MonoBehaviour:
   plotName: mechanic_3
   startingValue: 0
   plotValue: 
+--- !u!114 &114728085272392452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1373419072581188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b1aa36ea8885425bb7eca3914c9f993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plotName: return_to_pod_3
+  startingValue: 0
+  plotValue: 0
+--- !u!114 &114838401898107744
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1833888248995968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b1aa36ea8885425bb7eca3914c9f993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plotName: return_to_pod_1
+  startingValue: 0
+  plotValue: 0
 --- !u!114 &114847606425345416
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -518,14 +649,17 @@ MonoBehaviour:
   - {fileID: 114540988984781540}
   - {fileID: 114302926153981680}
   - {fileID: 114396420827395698}
+  - {fileID: 114838401898107744}
   actTwoPlots:
   - {fileID: 114584513271604626}
   - {fileID: 114915359232146896}
   - {fileID: 114037231895498506}
+  - {fileID: 114290699185834488}
   actThreePlots:
   - {fileID: 114112558765798242}
   - {fileID: 114847606425345416}
   - {fileID: 114684097864918978}
+  - {fileID: 114728085272392452}
   currentAct: {fileID: 114152375385911310}
   SpawnManager: {fileID: 114058389355898474}
 --- !u!114 &114915359232146896

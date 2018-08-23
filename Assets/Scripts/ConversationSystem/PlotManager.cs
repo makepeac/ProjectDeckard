@@ -50,9 +50,9 @@ public class PlotManager : MonoBehaviour
     /// </summary>
     void Update()
     {
-        bool actOneDone = actIsDone(actOnePlots);
-        bool actTwoDone = actIsDone(actTwoPlots);
-        bool actThreeDone = actIsDone(actThreePlots);
+        bool actOneDone = PlotManager.actIsDone(actOnePlots);
+        bool actTwoDone = PlotManager.actIsDone(actTwoPlots);
+        bool actThreeDone = PlotManager.actIsDone(actThreePlots);
         if (actOneDone)
         {
             if (actTwoDone)
@@ -78,7 +78,7 @@ public class PlotManager : MonoBehaviour
         SpawnManager.UpdateNpcs();
     }
 
-    bool actIsDone(List<Plot> actPlots)
+    public static bool actIsDone(List<Plot> actPlots)
     {
         bool actIsDone = false;
         foreach (Plot plot in actPlots)
